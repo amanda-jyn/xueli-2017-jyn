@@ -7,10 +7,11 @@ public class PearLogin {
 	public PearLogin(WebDriverEngine webtest){
 		this.webtest=webtest;
 	}
-	public void login(){
-		webtest.open("http://10.7.10.7/accounts/login/");
-		webtest.type("name=username", "12345@a.com");
-		webtest.type("name=password", "111111");
-		webtest.click("xpath=//input[@value='µÇÂ¼']");
+	public void login() throws InterruptedException{
+		webtest.open("http://localhost:8032/zl_shop/admin.php/Login/index.html");
+		Thread.sleep(5000);
+		webtest.type("xpath=//input[@name='name']","admin");
+		webtest.type("xpath=//input[@name='password']","admin");
+		webtest.click("xpath=//button[@type='submit']");
 	}
 }

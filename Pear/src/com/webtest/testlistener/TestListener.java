@@ -3,8 +3,7 @@ package com.webtest.testlistener;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
+import com.webtest.mail.SendMail;
 
 public class TestListener extends TestListenerAdapter{
 	//Test指的是每一个测试用例
@@ -25,7 +24,20 @@ public class TestListener extends TestListenerAdapter{
 	
 	public void onFinish(ITestContext content){
 		System.out.println("用例执行完毕，发送邮件");
-		
+		SendMail sendmail=new SendMail();
+		try {
+			sendmail.setemail();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			sendmail.createAttachMail(null);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 	}
 	
 }

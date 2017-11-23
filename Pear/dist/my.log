@@ -1,0 +1,39 @@
+[INFO ] 2017-11-24 08:38:05,648 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 08:38:05,652 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 08:38:09,222 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 08:54:02,347 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 08:54:02,351 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 08:54:05,873 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 09:02:22,385 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 09:02:22,389 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 09:02:26,069 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[FATAL] 2017-11-24 09:02:42,568 com.webtest.util.Log - expectedValue doesn't match actualValue,actual Value is :; expected Value is :留言列表
+[INFO ] 2017-11-24 09:04:53,343 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 09:04:53,347 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 09:04:56,865 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 09:05:09,872 com.webtest.util.Log - expectedValue :留言列表  match actualValue:留言列表
+[INFO ] 2017-11-24 09:06:08,359 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 09:06:08,363 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 09:06:11,961 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[FATAL] 2017-11-24 09:06:28,805 com.webtest.util.Log - expectedValue doesn't match actualValue,actual Value is :留言内容; expected Value is :留言列表
+[INFO ] 2017-11-24 09:09:51,631 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 09:09:51,636 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 09:09:55,182 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 09:10:11,492 com.webtest.util.Log - expectedValue :回复内容  match actualValue:回复内容
+[INFO ] 2017-11-24 09:18:21,147 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 09:18:21,152 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 09:18:24,759 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 09:18:41,354 com.webtest.util.Log - //input[@placeholder='请输入...']can't find element by prefix.
+[INFO ] 2017-11-24 09:18:44,906 com.webtest.util.Log - expectedValue :留言内容  match actualValue:留言内容
+[INFO ] 2017-11-24 09:20:20,866 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 09:20:20,869 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 09:20:24,494 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 09:20:44,455 com.webtest.util.Log - expectedValue :留言内容  match actualValue:留言内容
+[INFO ] 2017-11-24 09:22:41,883 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 09:22:41,887 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 09:22:45,485 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 09:23:06,338 com.webtest.util.Log - expectedValue :留言内容  match actualValue:留言内容
+[INFO ] 2017-11-24 09:27:48,840 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 09:27:48,844 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 09:27:52,451 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 09:28:12,313 com.webtest.util.Log - expectedValue :回复内容  match actualValue:回复内容

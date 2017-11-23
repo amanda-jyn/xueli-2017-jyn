@@ -12,5 +12,6 @@
 	<classpathentry kind="lib" path="lib/poi-ooxml-3.17.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-server-standalone-3.6.0.jar"/>
 	<classpathentry kind="lib" path="lib/testng-6.9.9.jar"/>
+	<classpathentry kind="src" path="/auto2017"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
