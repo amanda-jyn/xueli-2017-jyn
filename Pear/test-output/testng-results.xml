@@ -2,24 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33567" started-at="2017-11-24T03:14:31Z" finished-at="2017-11-24T03:15:05Z">
+  <suite name="Default suite" duration-ms="48480" started-at="2017-11-28T08:54:30Z" finished-at="2017-11-28T08:55:19Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33567" started-at="2017-11-24T03:14:31Z" finished-at="2017-11-24T03:15:05Z">
-      <class name="Pear.news.PubSearch">
-        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.news.PubSearch@4c70fda8]" name="doBeforeMethod" is-config="true" duration-ms="9908" started-at="2017-11-24T11:14:31Z" finished-at="2017-11-24T11:14:41Z">
+    <test name="Default test" duration-ms="48480" started-at="2017-11-28T08:54:30Z" finished-at="2017-11-28T08:55:19Z">
+      <class name="Pear.news.PublishNews">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.news.PublishNews@475530b9]" name="doBeforeMethod" is-config="true" duration-ms="9651" started-at="2017-11-28T16:54:30Z" finished-at="2017-11-28T16:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Pear.news.PubSearch@4c70fda8]" name="Login" duration-ms="13111" started-at="2017-11-24T11:14:41Z" finished-at="2017-11-24T11:14:55Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Pear.news.PublishNews@475530b9]" name="Login" duration-ms="13010" started-at="2017-11-28T16:54:40Z" finished-at="2017-11-28T16:54:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="search()[pri:0, instance:Pear.news.PubSearch@4c70fda8]" name="search" duration-ms="10515" started-at="2017-11-24T11:14:55Z" depends-on-methods="Pear.news.PubSearch.Login" finished-at="2017-11-24T11:15:05Z">
+        <test-method status="PASS" signature="Click()[pri:0, instance:Pear.news.PublishNews@475530b9]" name="Click" duration-ms="20784" started-at="2017-11-28T16:54:53Z" depends-on-methods="Pear.news.PublishNews.Login" finished-at="2017-11-28T16:55:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-      </class> <!-- Pear.news.PubSearch -->
+        </test-method> <!-- Click -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:Pear.news.PublishNews@475530b9]" name="doAfterMethod" is-config="true" duration-ms="5006" started-at="2017-11-28T16:55:14Z" finished-at="2017-11-28T16:55:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.news.PublishNews -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

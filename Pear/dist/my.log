@@ -62,3 +62,74 @@
 [INFO ] 2017-11-24 11:14:45,384 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
 [INFO ] 2017-11-24 11:14:55,007 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
 [INFO ] 2017-11-24 11:15:05,524 com.webtest.util.Log - expectedValue :小米电视携豪礼高调入驻京东  match actualValue:小米电视携豪礼高调入驻京东
+[INFO ] 2017-11-28 14:40:00,015 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 14:40:00,033 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 14:40:03,672 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 14:40:13,334 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 14:40:23,629 com.webtest.util.Log - expectedValue :消息类型  match actualValue:消息类型
+[INFO ] 2017-11-28 14:53:01,021 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 14:53:01,029 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 14:53:04,798 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 14:53:14,585 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 14:53:32,007 com.webtest.util.Log - expectedValue :发布中  match actualValue:发布中
+[INFO ] 2017-11-28 15:03:17,657 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 15:03:17,666 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 15:03:21,211 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 15:03:31,049 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 15:03:51,735 com.webtest.util.Log - expectedValue :发布中  match actualValue:发布中
+[INFO ] 2017-11-28 15:06:29,375 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 15:06:29,379 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 15:06:32,884 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 15:06:42,497 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 15:07:06,431 com.webtest.util.Log - expectedValue :新添加  match actualValue:新添加
+[INFO ] 2017-11-28 15:17:11,711 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 15:17:11,729 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 15:17:15,206 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 15:17:24,807 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 15:17:28,095 com.webtest.util.Log - expectedValue :展示图列表  match actualValue:展示图列表
+[INFO ] 2017-11-28 15:22:46,814 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 15:22:46,817 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 15:22:50,398 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 15:23:00,172 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 15:23:07,075 com.webtest.util.Log - expectedValue :添加展示图  match actualValue:添加展示图
+[INFO ] 2017-11-28 15:23:44,442 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 15:23:44,450 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 15:23:48,094 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 15:23:57,679 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 15:24:04,471 com.webtest.util.Log - expectedValue :商城信息列表  match actualValue:商城信息列表
+[INFO ] 2017-11-28 15:40:29,547 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 15:40:29,562 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 15:40:33,133 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 15:40:42,669 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 15:40:52,972 com.webtest.util.Log - expectedValue :4  match actualValue:4
+[INFO ] 2017-11-28 15:43:15,933 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 15:43:15,948 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 15:43:19,504 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 15:43:29,071 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 15:43:39,393 com.webtest.util.Log - expectedValue :京东  match actualValue:京东
+[INFO ] 2017-11-28 15:46:03,046 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 15:46:03,050 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 15:46:06,664 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 15:46:16,142 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 15:46:26,394 com.webtest.util.Log - expectedValue :京东  match actualValue:京东
+[INFO ] 2017-11-28 15:46:34,948 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-28 16:20:36,414 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 16:20:36,419 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 16:20:40,154 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 16:20:49,978 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 16:21:00,223 com.webtest.util.Log - expectedValue :新添加  match actualValue:新添加
+[INFO ] 2017-11-28 16:21:06,508 com.webtest.util.Log - expectedValue :已发布  match actualValue:已发布
+[INFO ] 2017-11-28 16:21:12,829 com.webtest.util.Log - expectedValue :已过期  match actualValue:已过期
+[INFO ] 2017-11-28 16:21:19,536 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-28 16:52:29,707 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 16:52:29,710 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 16:52:33,318 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 16:52:43,504 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 16:53:04,330 com.webtest.util.Log - expectedValue :新添加  match actualValue:新添加
+[INFO ] 2017-11-28 16:53:09,692 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-28 16:54:40,321 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-28 16:54:40,325 com.webtest.util.Log - firefox
+[INFO ] 2017-11-28 16:54:43,913 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-28 16:54:53,416 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-28 16:55:14,203 com.webtest.util.Log - expectedValue :新添加  match actualValue:新添加
+[INFO ] 2017-11-28 16:55:19,210 com.webtest.util.Log - Quitted Browser
