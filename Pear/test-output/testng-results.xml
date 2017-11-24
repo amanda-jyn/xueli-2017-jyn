@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32263" started-at="2017-11-24T01:27:40Z" finished-at="2017-11-24T01:28:12Z">
+  <suite name="Default suite" duration-ms="33567" started-at="2017-11-24T03:14:31Z" finished-at="2017-11-24T03:15:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32263" started-at="2017-11-24T01:27:40Z" finished-at="2017-11-24T01:28:12Z">
-      <class name="Pear.talk.RepoListSelect">
-        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.talk.RepoListSelect@2b98378d]" name="doBeforeMethod" is-config="true" duration-ms="8873" started-at="2017-11-24T09:27:40Z" finished-at="2017-11-24T09:27:48Z">
+    <test name="Default test" duration-ms="33567" started-at="2017-11-24T03:14:31Z" finished-at="2017-11-24T03:15:05Z">
+      <class name="Pear.news.PubSearch">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.news.PubSearch@4c70fda8]" name="doBeforeMethod" is-config="true" duration-ms="9908" started-at="2017-11-24T11:14:31Z" finished-at="2017-11-24T11:14:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Pear.talk.RepoListSelect@2b98378d]" name="Login" duration-ms="13042" started-at="2017-11-24T09:27:48Z" finished-at="2017-11-24T09:28:01Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Pear.news.PubSearch@4c70fda8]" name="Login" duration-ms="13111" started-at="2017-11-24T11:14:41Z" finished-at="2017-11-24T11:14:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="Click()[pri:0, instance:Pear.talk.RepoListSelect@2b98378d]" name="Click" duration-ms="10313" started-at="2017-11-24T09:28:02Z" depends-on-methods="Pear.talk.RepoListSelect.Login" finished-at="2017-11-24T09:28:12Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:Pear.news.PubSearch@4c70fda8]" name="search" duration-ms="10515" started-at="2017-11-24T11:14:55Z" depends-on-methods="Pear.news.PubSearch.Login" finished-at="2017-11-24T11:15:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Click -->
-      </class> <!-- Pear.talk.RepoListSelect -->
+        </test-method> <!-- search -->
+      </class> <!-- Pear.news.PubSearch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

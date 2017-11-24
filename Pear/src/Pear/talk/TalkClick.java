@@ -11,7 +11,7 @@ import Pear.login.PearLogin;
 @Listeners(TestListener.class)
 public class TalkClick extends BaseTest{
 	@Test
-	public void Login() throws InterruptedException{
+	public void Login() throws Exception{
 		PearLogin lg=new PearLogin(webtest);
 		lg.login();
 	}

@@ -37,3 +37,28 @@
 [INFO ] 2017-11-24 09:27:48,844 com.webtest.util.Log - firefox
 [INFO ] 2017-11-24 09:27:52,451 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
 [INFO ] 2017-11-24 09:28:12,313 com.webtest.util.Log - expectedValue :回复内容  match actualValue:回复内容
+[INFO ] 2017-11-24 10:41:02,125 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 10:41:02,129 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 10:41:05,655 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 10:41:15,178 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-24 10:41:18,501 com.webtest.util.Log - expectedValue :公告列表  match actualValue:公告列表
+[INFO ] 2017-11-24 10:49:02,810 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 10:49:02,814 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 10:49:06,349 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 10:49:16,195 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-24 10:49:23,011 com.webtest.util.Log - expectedValue :发布新闻  match actualValue:发布新闻
+[INFO ] 2017-11-24 10:52:15,859 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 10:52:15,863 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 10:52:19,410 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 10:52:28,844 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-24 10:52:35,600 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
+[INFO ] 2017-11-24 11:11:22,365 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 11:11:22,370 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 11:11:25,972 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 11:11:35,469 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[FATAL] 2017-11-24 11:11:45,916 com.webtest.util.Log - expectedValue doesn't match actualValue,actual Value is :小米电视携豪礼高调入驻京东; expected Value is :小米电视携豪礼高调入驻京东  
+[INFO ] 2017-11-24 11:14:41,809 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-24 11:14:41,812 com.webtest.util.Log - firefox
+[INFO ] 2017-11-24 11:14:45,384 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-24 11:14:55,007 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-24 11:15:05,524 com.webtest.util.Log - expectedValue :小米电视携豪礼高调入驻京东  match actualValue:小米电视携豪礼高调入驻京东

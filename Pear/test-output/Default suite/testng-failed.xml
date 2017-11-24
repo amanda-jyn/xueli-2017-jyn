@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Pear.talk.TalkListClick">
+      <class name="Pear.news.PubSearch">
         <methods>
           <include name="Login"/>
-          <include name="Click"/>
+          <include name="search"/>
           <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- Pear.talk.TalkListClick -->
+      </class> <!-- Pear.news.PubSearch -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

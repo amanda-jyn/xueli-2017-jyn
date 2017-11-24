@@ -11,12 +11,12 @@ import Pear.login.PearLogin;
 @Listeners(TestListener.class)
 public class RepoListSelect extends BaseTest{
 	@Test
-	public void Login() throws InterruptedException{
+	public void Login() throws Exception{
 		PearLogin lg=new PearLogin(webtest);
 		lg.login();
 	}
 	@Test(dependsOnMethods="Login")
-	public void Click() throws Exception{
+	public void search() throws Exception{
 		webtest.click("xpath=//span[contains(.,' 留言管理 ')]");
 		webtest.click("xpath=//a[contains(.,'回复列表')]");
 		webtest.type("xpath=//input[@id='nav-search-input']", "567");

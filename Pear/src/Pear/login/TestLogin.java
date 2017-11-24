@@ -8,7 +8,7 @@ import com.webtest.testlistener.TestListener;
 @Listeners(TestListener.class)
 public class TestLogin extends BaseTest{
 	@Test
-	public void testlogin() throws InterruptedException{
+	public void testlogin() throws Exception{
 		PearLogin pl=new PearLogin(webtest);
 		pl.login();
 	}
