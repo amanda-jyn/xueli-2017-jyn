@@ -21,10 +21,11 @@ public class PubRemove extends BaseTest{
 		}
 	}
 	@Test(dependsOnMethods="Login")
-	public void search() throws Exception{
+	public void delete() throws Exception{
 		webtest.click("xpath=//span[contains(.,' 新闻管理 ')]");
 		webtest.click("xpath=//a[contains(.,'公告列表')]"); 
 		//点击“删除”
 		webtest.click("xpath=//*[@id='sample-table-1']/tbody/tr[1]/td[9]/div/a[2]");
+		webtest.getAlert().accept();
 	}
 }

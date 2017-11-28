@@ -21,7 +21,7 @@ public class PictureStateChange extends BaseTest{
 		}
 	}
 	@Test(dependsOnMethods="Login")
-	public void Click() throws Exception{
+	public void change() throws Exception{
 		webtest.click("xpath=//span[contains(.,' 商城设置 ')]");
 		webtest.click("xpath=//a[contains(.,'展示图列表')]");
 		//新添加

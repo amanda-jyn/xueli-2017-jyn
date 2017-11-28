@@ -133,3 +133,749 @@
 [INFO ] 2017-11-28 16:54:53,416 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
 [INFO ] 2017-11-28 16:55:14,203 com.webtest.util.Log - expectedValue :新添加  match actualValue:新添加
 [INFO ] 2017-11-28 16:55:19,210 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-29 09:34:09,950 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-29 09:34:09,979 com.webtest.util.Log - firefox
+[INFO ] 2017-11-29 09:34:13,592 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-29 09:34:23,487 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-29 09:34:40,646 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-11-29 09:35:27,474 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-29 09:35:27,478 com.webtest.util.Log - firefox
+[INFO ] 2017-11-29 09:35:31,026 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-29 09:35:40,789 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-29 09:57:26,119 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-29 09:57:26,123 com.webtest.util.Log - firefox
+[INFO ] 2017-11-29 09:57:29,676 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-29 09:57:39,361 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-29 09:57:49,865 com.webtest.util.Log - org.openqa.selenium.InvalidSelectorException: Given xpath expression "//*[@id='main-container']嘻嘻嘻嘻嘻/div/div[2]/div[2]/div[2]/div/form/div[6]/input[1]" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.vWuHqHKw1ZHY, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=1816, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: d33949c8-ea01-4135-9ce5-59ee5a8f0247
+*** Element info: {Using=xpath, value=//*[@id='main-container']嘻嘻嘻嘻嘻/div/div[2]/div[2]/div[2]/div/form/div[6]/input[1]}
+[INFO ] 2017-11-29 09:58:00,055 com.webtest.util.Log - expectedValue :嘻嘻嘻嘻嘻  match actualValue:<html lang="en"><head>
+		<meta charset="utf-8">
+		<title>商城后台管理系统</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- basic styles -->
+		<link href="/zl_shop/Public/admin/assets/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="/zl_shop/Public/admin/assets/css/font-awesome.min.css">
+
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="/zl_shop/Public/admin/assets/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!-- page specific plugin styles -->
+        
+        
+        
+        
+
+		<!-- fonts -->
+
+	
+		<!-- ace styles -->
+        
+		<link rel="stylesheet" href="/zl_shop/Public/admin/assets/css/ace.min.css">
+		<link rel="stylesheet" href="/zl_shop/Public/admin/assets/css/ace-rtl.min.css">
+		<link rel="stylesheet" href="/zl_shop/Public/admin/assets/css/ace-skins.min.css">
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="/zl_shop/Public/admin/assets/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!-- inline styles related to this page -->
+
+        
+		<!-- ace settings handler -->
+
+		<script src="/zl_shop/Public/admin/assets/js/ace-extra.min.js"></script>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+		<!--[if lt IE 9]>
+		<script src="/zl_shop/Public/admin/assets/js/html5shiv.js"></script>
+		<script src="/zl_shop/Public/admin/assets/js/respond.min.js"></script>
+		<![endif]-->
+		
+	<style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style></head>
+
+	<body>
+		<div class="navbar navbar-default" id="navbar">
+			<script type="text/javascript">
+				try{ace.settings.check('navbar' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="navbar-container" id="navbar-container">
+				<div class="navbar-header pull-left">
+					<a href="#" class="navbar-brand">
+						<small>
+							<i class="icon-leaf"></i>
+							京东商城后台管理系统
+						</small>
+					</a><!-- /.brand -->
+				</div><!-- /.navbar-header -->
+
+				<div class="navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+						<li class="light-blue">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="/zl_shop/Public/admin/assets/avatars/user.jpg" alt="Jason's Photo">
+								<span class="user-info">
+									<small>欢迎光临,</small>
+									admin								</span>
+								<i class="icon-caret-down"></i>
+							</a>
+
+							<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								<li>
+									<a href="/zl_shop/admin.php/Admin/edit/id/">
+										<i class="icon-cog"></i>
+										设置
+									</a>
+								</li>
+
+								<li>
+									<a href="/zl_shop/admin.php/Admin/edit/id/">
+										<i class="icon-user"></i>
+										个人资料
+									</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href="/zl_shop/admin.php/Login/logout">
+										<i class="icon-off"></i>
+										退出
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul><!-- /.ace-nav -->
+				</div><!-- /.navbar-header -->
+			</div><!-- /.container -->
+		</div>
+
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+				try{ace.settings.check('main-container' , 'fixed')}catch(e){}
+			</script>
+
+			<div class="main-container-inner">
+				<a class="menu-toggler" id="menu-toggler" href="#">
+					<span class="menu-text"></span>
+				</a>
+
+				<div class="sidebar" id="sidebar">
+					<script type="text/javascript">
+						try{ace.settings.check('sidebar' , 'fixed')}catch(e){}
+					</script>
+
+					<div class="sidebar-shortcuts" id="sidebar-shortcuts">
+						<div class="sidebar-shortcuts-large" id="sidebar-shortcuts-large">
+							<button class="btn btn-success">
+								<i class="icon-signal"></i>
+							</button>
+
+							<button class="btn btn-info">
+								<i class="icon-pencil"></i>
+							</button>
+
+							<button class="btn btn-warning">
+								<i class="icon-group"></i>
+							</button>
+
+							<button class="btn btn-danger">
+								<i class="icon-cogs"></i>
+							</button>
+						</div>
+
+						<div class="sidebar-shortcuts-mini" id="sidebar-shortcuts-mini">
+							<span class="btn btn-success"></span>
+
+							<span class="btn btn-info"></span>
+
+							<span class="btn btn-warning"></span>
+
+							<span class="btn btn-danger"></span>
+						</div>
+					</div><!-- #sidebar-shortcuts -->
+
+					<ul class="nav nav-list">
+                        
+						<li>
+							<a href="/zl_shop/admin.php/Notices/Index" class="dropdown-toggle">
+								<i class="icon-desktop"></i>
+								<span class="menu-text"> 用户管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="/zl_shop/admin.php/Admin/index">
+										<i class="icon-double-angle-right"></i>
+										员工列表
+									</a>
+								</li>
+
+								<li>
+									<a href="/zl_shop/admin.php/Users/index">
+										<i class="icon-double-angle-right"></i>
+										会员列表
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 商品管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="/zl_shop/admin.php/Goods/index">
+										<i class="icon-double-angle-right"></i>
+										商品管理
+									</a>
+								</li>
+								<li>
+									<a href="/zl_shop/admin.php/Type/index">
+										<i class="icon-double-angle-right"></i>
+										商品类别
+									</a>
+								</li>
+								<li>
+									<a href="/zl_shop/admin.php/Brands/index">
+										<i class="icon-double-angle-right"></i>
+										商品品牌
+									</a>
+								</li>
+								<li>
+									<a href="/zl_shop/admin.php/Attrvalue/index">
+										<i class="icon-double-angle-right"></i>
+										商品属性
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 订单管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+							<ul class="submenu">
+								<li>
+									<a href="/zl_shop/admin.php/Orders/index">
+										<i class="icon-double-angle-right"></i>
+										订单列表
+									</a>
+								</li>
+							</ul>
+						</li>
+						    <li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 评论管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="/zl_shop/admin.php/Review/index">
+										<i class="icon-double-angle-right"></i>
+										评论列表
+									</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 留言管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="/zl_shop/admin.php/Leave/index">
+										<i class="icon-double-angle-right"></i>
+										留言列表
+									</a>
+								</li>
+								<li>
+									<a href="/zl_shop/admin.php/Leave/messagereply">
+										<i class="icon-double-angle-right"></i>
+										回复列表
+									</a>
+								</li>
+							</ul>
+                        </li>
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 新闻管理 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="/zl_shop/admin.php/News/index">
+										<i class="icon-double-angle-right"></i>
+										公告列表
+									</a>
+								</li>
+
+								<li>
+									<a href="/zl_shop/admin.php/Notices/index">
+										<i class="icon-double-angle-right"></i>
+										消息列表
+									</a>
+								</li>
+							</ul>
+						</li>
+						
+						
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 商城设置 </span>
+
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="/zl_shop/admin.php/Posts/index">
+										<i class="icon-double-angle-right"></i>
+										展示图列表
+									</a>
+								</li>
+
+								<li>
+									<a href="/zl_shop/admin.php/market/index">
+										<i class="icon-double-angle-right"></i>
+										商城信息
+									</a>
+								</li>
+							</ul>
+						</li>
+                        
+                        <li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 友情链接 </span>
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="/zl_shop/admin.php/Link/index">
+										<i class="icon-double-angle-right"></i>
+										友情链接列表
+									</a>
+								</li>
+
+								<li>
+									<a href="/zl_shop/admin.php/Link/add">
+										<i class="icon-double-angle-right"></i>
+										添加友情链接
+									</a>
+								</li>
+							</ul>
+						</li>
+						 <li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 权限管理 </span>
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="/zl_shop/admin.php/acl/setAcl">
+										<i class="icon-double-angle-right"></i>
+									    浏览所有权限
+									</a>
+								</li>
+								<li>
+									<a href="/zl_shop/admin.php/AdminGroup/index">
+										<i class="icon-double-angle-right"></i>
+										权限组列表
+									</a>
+								</li>
+								<li>
+									<a href="/zl_shop/admin.php/AdminGroup/addGroup">
+										<i class="icon-double-angle-right"></i>
+										添加权限组
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						
+					</ul><!-- /.nav-list -->
+
+					<div class="sidebar-collapse" id="sidebar-collapse">
+						<i class="icon-double-angle-left" data-icon1="icon-double-angle-left" data-icon2="icon-double-angle-right"></i>
+					</div>
+
+					<script type="text/javascript">
+						try{ace.settings.check('sidebar' , 'collapsed')}catch(e){}
+					</script>
+				</div>
+
+				
+ <div class="main-content">
+        <div class="breadcrumbs" id="breadcrumbs">
+            <script type="text/javascript">
+                try{ace.settings.check('breadcrumbs' , 'fixed')}catch(e){}
+            </script>
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home home-icon"></i>
+                    <a href="#">首页</a>
+                </li>
+
+                <li>
+                    <a href="#">消息管理</a>
+                </li>
+                <li class="active">消息列表</li>
+            </ul><!-- .breadcrumb -->
+
+            <div class="nav-search" id="nav-search">
+                <form class="form-search" method="post">
+                    <span class="input-icon">
+                        <input name="id" placeholder="请输入..." class="nav-search-input" id="nav-search-input" autocomplete="off" type="text">
+                        <button type="submit" value="查询" class="btn btn-purple btn-xs">搜索</button>
+                    </span>
+                </form>
+            </div><!-- #nav-search -->
+        </div>
+
+        <div class="page-content">
+            <div class="page-header">
+                <h1>
+                    <a href="/zl_shop/admin.php/Notices/add">发布消息</a>
+                </h1>
+                
+            </div><!-- /.page-header -->
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <!-- PAGE CONTENT BEGINS -->
+
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="table-responsive">
+                                <table id="sample-table-1" class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th class="center">
+                                                <label>
+                                                    <input class="ace" type="checkbox">
+                                                    <span class="lbl"></span>
+                                                </label>
+                                            </th>
+                                            <th>ID</th>
+                                            <th>用户ID</th>
+                                            <th class="hidden-480">消息类型</th>
+                                            <th>标题</th>
+                                            <th class="hidden-480">内容</th>
+                                            <th>发送时间</th>
+											<th>状态</th>
+											<th>发布人</th>
+											<th>操作</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td class="center">
+                                                <label>
+                                                    <input class="ace" type="checkbox">
+                                                    <span class="lbl"></span>
+                                                </label>
+                                            </td>
+
+                                            <td>
+                                                <a href="#">3</a>
+                                            </td>
+                                            <td>1</td>
+                                            <td class="hidden-480">系统消息</td>
+                                            <td>1</td>
+                                            <td> 123 </td>
+                                            
+                                            <td class="hidden-480">
+                                                <span class="label label-sm label-warning">2017-11-29 09:52:18</span>
+                                            </td>
+											 <td class="hidden-480">
+                                                <span class="label label-sm label-warning">1</span>
+                                            </td>
+											 <td class="hidden-480">
+                                                <span class="label label-sm label-warning">0</span>
+                                            </td>
+										
+
+                                            <td>
+                                                <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
+                                                    <a href="/zl_shop/admin.php/Notices/edit/id/3" class="btn btn-xs btn-info">
+                                                        <i class="icon-edit bigger-120">修改</i>
+                                                    </a>
+
+                                                    <a href="/zl_shop/admin.php/Notices/del/id/3" class="btn btn-xs btn-danger">
+                                                        <i class="icon-trash bigger-120">删除</i>
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr><tr>
+                                            <td class="center">
+                                                <label>
+                                                    <input class="ace" type="checkbox">
+                                                    <span class="lbl"></span>
+                                                </label>
+                                            </td>
+
+                                            <td>
+                                                <a href="#">1</a>
+                                            </td>
+                                            <td>56</td>
+                                            <td class="hidden-480">系统消息</td>
+                                            <td>1</td>
+                                            <td> 456    </td>
+                                            
+                                            <td class="hidden-480">
+                                                <span class="label label-sm label-warning">2017-11-29 09:53:57</span>
+                                            </td>
+											 <td class="hidden-480">
+                                                <span class="label label-sm label-warning">2</span>
+                                            </td>
+											 <td class="hidden-480">
+                                                <span class="label label-sm label-warning">0</span>
+                                            </td>
+										
+
+                                            <td>
+                                                <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
+                                                    <a href="/zl_shop/admin.php/Notices/edit/id/1" class="btn btn-xs btn-info">
+                                                        <i class="icon-edit bigger-120">修改</i>
+                                                    </a>
+
+                                                    <a href="/zl_shop/admin.php/Notices/del/id/1" class="btn btn-xs btn-danger">
+                                                        <i class="icon-trash bigger-120">删除</i>
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr><tr>
+                                            <td class="center">
+                                                <label>
+                                                    <input class="ace" type="checkbox">
+                                                    <span class="lbl"></span>
+                                                </label>
+                                            </td>
+
+                                            <td>
+                                                <a href="#">2</a>
+                                            </td>
+                                            <td>2</td>
+                                            <td class="hidden-480">系统消息</td>
+                                            <td>1嘻嘻嘻嘻嘻</td>
+                                            <td>  123  哈哈哈哈</td>
+                                            
+                                            <td class="hidden-480">
+                                                <span class="label label-sm label-warning">2017-11-29 09:57:56</span>
+                                            </td>
+											 <td class="hidden-480">
+                                                <span class="label label-sm label-warning">3</span>
+                                            </td>
+											 <td class="hidden-480">
+                                                <span class="label label-sm label-warning">0</span>
+                                            </td>
+										
+
+                                            <td>
+                                                <div class="visible-md visible-lg hidden-sm hidden-xs btn-group">
+                                                    <a href="/zl_shop/admin.php/Notices/edit/id/2" class="btn btn-xs btn-info">
+                                                        <i class="icon-edit bigger-120">修改</i>
+                                                    </a>
+
+                                                    <a href="/zl_shop/admin.php/Notices/del/id/2" class="btn btn-xs btn-danger">
+                                                        <i class="icon-trash bigger-120">删除</i>
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>                                        <tr><td colspan="10"><ul class="pagination">    </ul></td></tr>
+                                    </tbody>
+                                </table>
+                            </div><!-- /.table-responsive -->
+                        </div><!-- /span -->
+                    </div><!-- /row -->
+
+                    <div class="hr hr-18 dotted hr-double"></div>
+                    <!-- PAGE CONTENT ENDS -->
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.page-content -->
+    </div>
+
+
+
+				<!-- /#ace-settings-container -->
+			</div><!-- /.main-container-inner -->
+
+			<a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
+				<i class="icon-double-angle-up icon-only bigger-110"></i>
+			</a>
+		</div><!-- /.main-container -->
+
+		<!-- basic scripts -->
+
+		<!--[if !IE]> -->
+
+		<!--<script src="/zl_shop/Public/admin/assets/js/jquery-2.0.3.min.js"></script>-->
+		<script src="/zl_shop/Public/admin/assets/js/jquery-2.0.3.min.js"></script>
+		
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script src="/zl_shop/Public/admin/assets/js/jquery-1.10.2.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]> -->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='/zl_shop/Public/Admin/assets/js/jquery-2.0.3.min.js'>"+"<"+"script>");
+		</script>
+
+		<!-- <![endif]-->
+
+		<!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='/zl_shop/Public/admin/assets/js/jquery-1.10.2.min.js'>"+"<"+"script>");
+</script>
+<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='/zl_shop/Public/admin/assets/js/jquery.mobile.custom.min.js'>"+"<"+"script>");
+		</script>
+		<script src="/zl_shop/Public/admin/assets/js/bootstrap.min.js"></script>
+		<script src="/zl_shop/Public/admin/assets/js/typeahead-bs2.min.js"></script>
+
+		<!-- page specific plugin scripts -->
+
+		<!--[if lte IE 8]>
+		  <script src="/zl_shop/Public/admin/assets/js/excanvas.min.js"></script>
+		<![endif]-->
+
+		<script src="/zl_shop/Public/admin/assets/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="/zl_shop/Public/admin/assets/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="/zl_shop/Public/admin/assets/js/jquery.slimscroll.min.js"></script>
+		<script src="/zl_shop/Public/admin/assets/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="/zl_shop/Public/admin/assets/js/jquery.sparkline.min.js"></script>
+		<script src="/zl_shop/Public/admin/assets/js/flot/jquery.flot.min.js"></script>
+		<script src="/zl_shop/Public/admin/assets/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="/zl_shop/Public/admin/assets/js/flot/jquery.flot.resize.min.js"></script>
+
+		<!-- ace scripts -->
+
+		<script src="/zl_shop/Public/admin/assets/js/ace-elements.min.js"></script>
+		<script src="/zl_shop/Public/admin/assets/js/ace.min.js"></script>
+		<!-- inline scripts related to this page -->
+		
+        
+		<div id="think_page_trace" style="position: fixed;bottom:0;right:0;font-size:14px;width:100%;z-index: 999999;color: #000;text-align:left;font-family:'微软雅黑';">
+<div id="think_page_trace_tab" style="display: none;background:white;margin:0;height: 250px;">
+<div id="think_page_trace_tab_tit" style="height:30px;padding: 6px 12px 0;border-bottom:1px solid #ececec;border-top:1px solid #ececec;font-size:16px">
+	    <span style="color: rgb(0, 0, 0); padding-right: 12px; height: 30px; line-height: 30px; display: inline-block; margin-right: 3px; cursor: pointer; font-weight: 700;">基本</span>
+        <span style="color: rgb(153, 153, 153); padding-right: 12px; height: 30px; line-height: 30px; display: inline-block; margin-right: 3px; cursor: pointer; font-weight: 700;">文件</span>
+        <span style="color: rgb(153, 153, 153); padding-right: 12px; height: 30px; line-height: 30px; display: inline-block; margin-right: 3px; cursor: pointer; font-weight: 700;">流程</span>
+        <span style="color: rgb(153, 153, 153); padding-right: 12px; height: 30px; line-height: 30px; display: inline-block; margin-right: 3px; cursor: pointer; font-weight: 700;">错误</span>
+        <span style="color: rgb(153, 153, 153); padding-right: 12px; height: 30px; line-height: 30px; display: inline-block; margin-right: 3px; cursor: pointer; font-weight: 700;">SQL</span>
+        <span style="color: rgb(153, 153, 153); padding-right: 12px; height: 30px; line-height: 30px; display: inline-block; margin-right: 3px; cursor: pointer; font-weight: 700;">调试</span>
+    </div>
+<div id="think_page_trace_tab_cont" style="overflow:auto;height:212px;padding: 0; line-height: 24px">
+		    <div style="display: block;">
+    <ol style="padding: 0; margin:0">
+	<li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">请求信息 : 2017-11-29 09:57:56 HTTP/1.1 GET : /zl_shop/admin.php/notices/index.html</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">运行时间 : 0.1115s ( Load:0.0255s Init:0.0104s Exec:0.0203s Template:0.0553s )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">吞吐率 : 8.97req/s</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">内存开销 : 272.64 kb</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">查询信息 : 3 queries 0 writes </li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">文件加载 : 35</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">缓存信息 : 0 gets 0 writes </li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">配置加载 : 123</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">会话信息 : SESSION_ID=iut2mhqoc4b4sgunda13s9skg6</li>    </ol>
+    </div>
+        <div style="display:none;">
+    <ol style="padding: 0; margin:0">
+	<li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\admin.php ( 1.01 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\ThinkPHP.php ( 4.54 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Think.class.php ( 11.97 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Storage.class.php ( 1.34 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Storage\Driver\File.class.php ( 3.42 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Mode\common.php ( 2.75 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Common\functions.php ( 49.85 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\Apps\Common\Common\function.php ( 2.81 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Hook.class.php ( 3.91 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\App.class.php ( 13.04 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Dispatcher.class.php ( 14.51 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Route.class.php ( 13.06 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Controller.class.php ( 10.54 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\View.class.php ( 7.40 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Behavior\BuildLiteBehavior.class.php ( 3.61 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Behavior\ParseTemplateBehavior.class.php ( 3.80 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Behavior\ContentReplaceBehavior.class.php ( 1.87 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Conf\convention.php ( 11.01 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\Apps\Common\Conf\config.php ( 0.05 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Lang\zh-cn.php ( 2.51 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Conf\debug.php ( 1.47 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Log.class.php ( 3.78 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\Apps\Admin\Conf\config.php ( 0.60 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Behavior\ReadHtmlCacheBehavior.class.php ( 5.51 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\Apps\Admin\Controller\NoticesController.class.php ( 1.58 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Model.class.php ( 58.56 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Db.class.php ( 31.69 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php ( 10.47 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Page.class.php ( 5.61 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Template.class.php ( 27.73 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Template\TagLib\Cx.class.php ( 21.90 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Template\TagLib.class.php ( 8.95 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\Apps\Runtime\Cache\Admin\05b781ad7f1c53a8bc68a0e87d939b77.php ( 19.24 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Behavior\WriteHtmlCacheBehavior.class.php ( 0.95 KB )</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Behavior\ShowPageTraceBehavior.class.php ( 5.13 KB )</li>    </ol>
+    </div>
+        <div style="display:none;">
+    <ol style="padding: 0; margin:0">
+	<li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ app_begin ] --START--</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ app_begin ] --END-- [ RunTime:0.001708s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ view_parse ] --START--</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ template_filter ] --START--</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ template_filter ] --END-- [ RunTime:0.000183s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">Run Behavior\ParseTemplateBehavior [ RunTime:0.015488s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ view_parse ] --END-- [ RunTime:0.015547s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ view_filter ] --START--</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001791s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ view_filter ] --END-- [ RunTime:0.001822s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[ app_end ] --START--</li>    </ol>
+    </div>
+        <div style="display:none;">
+    <ol style="padding: 0; margin:0">
+	<li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">[8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\ruanjianceshi\upupw32\htdocs\zl_shop\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.</li>    </ol>
+    </div>
+        <div style="display:none;">
+    <ol style="padding: 0; margin:0">
+	<li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">SHOW COLUMNS FROM `zl_notices` [ RunTime:0.008470s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">SELECT COUNT(*) AS tp_count FROM `zl_notices` LIMIT 1   [ RunTime:0.000353s ]</li><li style="border-bottom:1px solid #EEE;font-size:14px;padding:0 12px">SELECT * FROM `zl_notices` ORDER BY addtime LIMIT 0,3   [ RunTime:0.000607s ]</li>    </ol>
+    </div>
+        <div style="display:none;">
+    <ol style="padding: 0; margin:0">
+	    </ol>
+    </div>
+    </div>
+</div>
+<div id="think_page_trace_close" style="display:none;text-align:right;height:15px;position:absolute;top:10px;right:12px;cursor: pointer;"><img style="vertical-align:top;" src="data:image/gif;base64,R0lGODlhDwAPAJEAAAAAAAMDA////wAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUQxMjc1MUJCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUQxMjc1MUNCQUJDMTFFMTk0OUVGRjc3QzU4RURFNkEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRDEyNzUxOUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRDEyNzUxQUJBQkMxMUUxOTQ5RUZGNzdDNThFREU2QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgH//v38+/r5+Pf29fTz8vHw7+7t7Ovq6ejn5uXk4+Lh4N/e3dzb2tnY19bV1NPS0dDPzs3My8rJyMfGxcTDwsHAv769vLu6ubi3trW0s7KxsK+urayrqqmop6alpKOioaCfnp2cm5qZmJeWlZSTkpGQj46NjIuKiYiHhoWEg4KBgH9+fXx7enl4d3Z1dHNycXBvbm1sa2ppaGdmZWRjYmFgX15dXFtaWVhXVlVUU1JRUE9OTUxLSklIR0ZFRENCQUA/Pj08Ozo5ODc2NTQzMjEwLy4tLCsqKSgnJiUkIyIhIB8eHRwbGhkYFxYVFBMSERAPDg0MCwoJCAcGBQQDAgEAACH5BAAAAAAALAAAAAAPAA8AAAIdjI6JZqotoJPR1fnsgRR3C2jZl3Ai9aWZZooV+RQAOw=="></div>
+</div>
+<div id="think_page_trace_open" style="height:30px;float:right;text-align: right;overflow:hidden;position:fixed;bottom:0;right:0;color:#000;line-height:30px;cursor:pointer;"><div style="background:#232323;color:#FFF;padding:0 6px;float:right;line-height:30px;font-size:14px">0.1115s </div><img style="" title="ShowPageTrace" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjVERDVENkZGQjkyNDExRTE5REY3RDQ5RTQ2RTRDQUJCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjVERDVENzAwQjkyNDExRTE5REY3RDQ5RTQ2RTRDQUJCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NURENUQ2RkRCOTI0MTFFMTlERjdENDlFNDZFNENBQkIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6NURENUQ2RkVCOTI0MTFFMTlERjdENDlFNDZFNENBQkIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5fx6IRAAAMCElEQVR42sxae3BU1Rk/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" width="30"></div>
+<script type="text/javascript">
+(function(){
+var tab_tit  = document.getElementById('think_page_trace_tab_tit').getElementsByTagName('span');
+var tab_cont = document.getElementById('think_page_trace_tab_cont').getElementsByTagName('div');
+var open     = document.getElementById('think_page_trace_open');
+var close    = document.getElementById('think_page_trace_close').childNodes[0];
+var trace    = document.getElementById('think_page_trace_tab');
+var cookie   = document.cookie.match(/thinkphp_show_page_trace=(\d\|\d)/);
+var history  = (cookie && typeof cookie[1] != 'undefined' && cookie[1].split('|')) || [0,0];
+open.onclick = function(){
+	trace.style.display = 'block';
+	this.style.display = 'none';
+	close.parentNode.style.display = 'block';
+	history[0] = 1;
+	document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+}
+close.onclick = function(){
+	trace.style.display = 'none';
+this.parentNode.style.display = 'none';
+	open.style.display = 'block';
+	history[0] = 0;
+	document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+}
+for(var i = 0; i < tab_tit.length; i++){
+	tab_tit[i].onclick = (function(i){
+		return function(){
+			for(var j = 0; j < tab_cont.length; j++){
+				tab_cont[j].style.display = 'none';
+				tab_tit[j].style.color = '#999';
+			}
+			tab_cont[i].style.display = 'block';
+			tab_tit[i].style.color = '#000';
+			history[1] = i;
+			document.cookie = 'thinkphp_show_page_trace='+history.join('|')
+		}
+	})(i)
+}
+parseInt(history[0]) && open.click();
+(tab_tit[history[1]] || tab_tit[0]).click();
+})();
+</script>
+</body></html>

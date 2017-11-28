@@ -1,4 +1,4 @@
-package Pear.market;
+package Pear.news;
 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -9,7 +9,7 @@ import com.webtest.testlistener.TestListener;
 
 import Pear.login.PearLogin;
 @Listeners(TestListener.class)
-public class PictureListSearch extends BaseTest{
+public class MessageRemove extends BaseTest{
 	@Test
 	public void Login() throws InterruptedException{
 		PearLogin lg=new PearLogin(webtest);
@@ -21,12 +21,11 @@ public class PictureListSearch extends BaseTest{
 		}
 	}
 	@Test(dependsOnMethods="Login")
-	public void search() throws Exception{
-		webtest.click("xpath=//span[contains(.,' 商城设置 ')]");
-		webtest.click("xpath=//a[contains(.,'展示图列表')]");
-		webtest.type("xpath=//input[@id='nav-search-input']", "4");
-		webtest.click("xpath=//button[contains(.,'搜索')]");
-		Checker ck=new Checker(webtest);
-		ck.verifyText("xpath=//a[contains(.,'4')]", "4");
+	public void delete() throws Exception{
+		webtest.click("xpath=//span[contains(.,' 新闻管理 ')]");
+		webtest.click("xpath=//a[contains(.,'消息列表')]");
+		//点击“删除”
+		webtest.click("xpath=//*[@id='sample-table-1']/tbody/tr[1]/td[9]/div/a[2]");
+		webtest.getAlert().accept();
 	}
 }

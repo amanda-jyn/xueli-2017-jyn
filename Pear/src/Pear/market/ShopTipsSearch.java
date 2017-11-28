@@ -21,7 +21,7 @@ public class ShopTipsSearch extends BaseTest{
 		}
 	}
 	@Test(dependsOnMethods="Login")
-	public void Click() throws Exception{
+	public void search() throws Exception{
 		webtest.click("xpath=//span[contains(.,' 商城设置 ')]");
 		webtest.click("xpath=//a[contains(.,'商城信息')]");
 		webtest.type("xpath=//input[@id='nav-search-input']", "京东");

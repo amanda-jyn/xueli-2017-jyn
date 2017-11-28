@@ -21,7 +21,7 @@ public class PublishNews extends BaseTest{
 		}
 	}
 	@Test(dependsOnMethods="Login")
-	public void Click() throws Exception{
+	public void publish() throws Exception{
 		webtest.click("xpath=//span[contains(.,' 新闻管理 ')]");
 		webtest.click("xpath=//a[contains(.,'公告列表')]");
 		webtest.click("xpath=//a[contains(.,'发布新闻')]");

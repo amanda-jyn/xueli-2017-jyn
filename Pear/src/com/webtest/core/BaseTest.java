@@ -119,12 +119,12 @@ public class BaseTest {
 		
 	}
 
-	@AfterTest
-	public void doAfterMethod() throws InterruptedException {
-		if(this.driver != null){
-			this.driver.quit();
-			}
-		Log.info("Quitted Browser");
-	}	
+//	@AfterTest
+//	public void doAfterMethod() throws InterruptedException {
+//		if(this.driver != null){
+//			this.driver.quit();
+//			}
+//		Log.info("Quitted Browser");
+//	}	
 
 }
