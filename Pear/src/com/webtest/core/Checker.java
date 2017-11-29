@@ -113,4 +113,5 @@ public class Checker {
 		actualValue = webtest.getValue(locator);
 		verify(patten, actualValue);
 	}
+
 }

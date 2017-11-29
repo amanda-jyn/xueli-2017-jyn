@@ -34,7 +34,7 @@ public class BaseTest {
 	public static Properties conf = null;
 	public final static String CONF_PATH = "conf/config.properties";
 	public  WebDriverEngine webtest;
-	private WebDriver driver;
+	public WebDriver driver;
 	public String driverType;
 	protected ObjectMap objectMap=null;
 

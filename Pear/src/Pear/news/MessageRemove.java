@@ -25,7 +25,7 @@ public class MessageRemove extends BaseTest{
 		webtest.click("xpath=//span[contains(.,' 新闻管理 ')]");
 		webtest.click("xpath=//a[contains(.,'消息列表')]");
 		//点击“删除”
-		webtest.click("xpath=//*[@id='sample-table-1']/tbody/tr[1]/td[9]/div/a[2]");
-		webtest.getAlert().accept();
+		Thread.sleep(3000);
+		webtest.click("xpath=//*[@id='sample-table-1']/tbody/tr[1]/td[10]/div/a[2]");
 	}
 }

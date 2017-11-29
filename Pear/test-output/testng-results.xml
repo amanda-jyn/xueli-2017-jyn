@@ -1,25 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42255" started-at="2017-11-29T01:57:17Z" finished-at="2017-11-29T01:58:00Z">
+  <suite name="Default suite" duration-ms="140319" started-at="2017-11-29T08:53:18Z" finished-at="2017-11-29T08:55:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42255" started-at="2017-11-29T01:57:17Z" finished-at="2017-11-29T01:58:00Z">
-      <class name="Pear.news.MessageChange">
-        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.news.MessageChange@2b98378d]" name="doBeforeMethod" is-config="true" duration-ms="8367" started-at="2017-11-29T09:57:17Z" finished-at="2017-11-29T09:57:26Z">
+    <test name="Default test" duration-ms="140319" started-at="2017-11-29T08:53:18Z" finished-at="2017-11-29T08:55:38Z">
+      <class name="Pear.news.PublishMessage">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.news.PublishMessage@475530b9]" name="doBeforeMethod" is-config="true" duration-ms="10282" started-at="2017-11-29T16:53:18Z" finished-at="2017-11-29T16:53:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:Pear.news.MessageChange@2b98378d]" name="Login" duration-ms="13136" started-at="2017-11-29T09:57:26Z" finished-at="2017-11-29T09:57:39Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Pear.news.PublishMessage@475530b9]" name="Login" duration-ms="14939" started-at="2017-11-29T16:53:28Z" finished-at="2017-11-29T16:53:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="change()[pri:0, instance:Pear.news.MessageChange@2b98378d]" name="change" duration-ms="20716" started-at="2017-11-29T09:57:39Z" depends-on-methods="Pear.news.MessageChange.Login" finished-at="2017-11-29T09:58:00Z">
+        <test-method status="PASS" signature="publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@475530b9]" name="publish" duration-ms="14413" started-at="2017-11-29T16:53:43Z" data-provider="s3" depends-on-methods="Pear.news.PublishMessage.Login" finished-at="2017-11-29T16:53:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[apple]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- change -->
-      </class> <!-- Pear.news.MessageChange -->
+        </test-method> <!-- publish -->
+        <test-method status="PASS" signature="publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@475530b9]" name="publish" duration-ms="14192" started-at="2017-11-29T16:53:57Z" data-provider="s3" depends-on-methods="Pear.news.PublishMessage.Login" finished-at="2017-11-29T16:54:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[banana]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publish -->
+        <test-method status="PASS" signature="publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@475530b9]" name="publish" duration-ms="14300" started-at="2017-11-29T16:54:12Z" data-provider="s3" depends-on-methods="Pear.news.PublishMessage.Login" finished-at="2017-11-29T16:54:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pear]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publish -->
+        <test-method status="PASS" signature="publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@475530b9]" name="publish" duration-ms="14357" started-at="2017-11-29T16:54:26Z" data-provider="s3" depends-on-methods="Pear.news.PublishMessage.Login" finished-at="2017-11-29T16:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pineapple]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publish -->
+        <test-method status="PASS" signature="publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@475530b9]" name="publish" duration-ms="14361" started-at="2017-11-29T16:54:40Z" data-provider="s3" depends-on-methods="Pear.news.PublishMessage.Login" finished-at="2017-11-29T16:54:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[grape]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publish -->
+        <test-method status="PASS" signature="publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@475530b9]" name="publish" duration-ms="14667" started-at="2017-11-29T16:54:55Z" data-provider="s3" depends-on-methods="Pear.news.PublishMessage.Login" finished-at="2017-11-29T16:55:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[peach]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publish -->
+        <test-method status="PASS" signature="publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@475530b9]" name="publish" duration-ms="14467" started-at="2017-11-29T16:55:09Z" data-provider="s3" depends-on-methods="Pear.news.PublishMessage.Login" finished-at="2017-11-29T16:55:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publish -->
+        <test-method status="PASS" signature="publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@475530b9]" name="publish" duration-ms="14314" started-at="2017-11-29T16:55:24Z" data-provider="s3" depends-on-methods="Pear.news.PublishMessage.Login" finished-at="2017-11-29T16:55:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[fruit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[strawberry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publish -->
+      </class> <!-- Pear.news.PublishMessage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

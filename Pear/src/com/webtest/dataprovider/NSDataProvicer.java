@@ -9,13 +9,13 @@ public class NSDataProvicer {
 
 	@DataProvider(name="s1")
 	public static Object[][] getTxt(){
-		FileDataProvider ft = new FileDataProvider("data/testData.txt");
+		FileDataProvider ft = new FileDataProvider("data/news.txt");
 		return ft.getTestDataByTxt();
 	}
 	
 	@DataProvider(name="s3")
 	public static Object[][] getTxt1(){
-		FileDataProvider ft = new FileDataProvider("data/testData1.txt");
+		FileDataProvider ft = new FileDataProvider("data/tips.txt");
 		return ft.getTestDataByTxt();
 	}
 	
