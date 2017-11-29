@@ -8,7 +8,7 @@ import com.webtest.testlistener.TestListener;
 
 import Pear.login.PearLogin;
 @Listeners(TestListener.class)
-public class PubChange extends BaseTest{
+public class PubChangeoverdue extends BaseTest{
 	@Test
 	public void Login() throws InterruptedException{
 		PearLogin lg=new PearLogin(webtest);
@@ -26,15 +26,11 @@ public class PubChange extends BaseTest{
 		//点击“修改”
 		webtest.click("xpath=//*[@id='sample-table-1']/tbody/tr[1]/td[9]/div/a[1]");
 		//标题
-		webtest.type("xpath=//input[@name='title']","为了你我用了半年的积蓄");
+		webtest.type("xpath=//input[@name='title']","你知道我很爱你吗");
 		//单选框-类型
 		webtest.click("xpath=//*[@id='main-container']/div/div[2]/div[2]/div[2]/div/form/div[3]/input[1]");
 		//内容
-		webtest.type("xpath=//textarea[@name='content']", "漂洋过海来看你");
-		//单选框-新添加状态
-		webtest.click("xpath=//*[@id='main-container']/div/div[2]/div[2]/div[2]/div/form/div[5]/input[1]");
-		//单选框-已发布状态
-		webtest.click("xpath=//*[@id='main-container']/div/div[2]/div[2]/div[2]/div/form/div[5]/input[2]");
+		webtest.type("xpath=//textarea[@name='content']", "你为什么都不在乎我");
 		//单选框-已过期状态
 		webtest.click("xpath=//*[@id='main-container']/div/div[2]/div[2]/div[2]/div/form/div[5]/input[3]");
 		//提交修改

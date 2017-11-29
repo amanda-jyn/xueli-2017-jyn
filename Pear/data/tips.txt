@@ -1,9 +1,9 @@
 id	title	content
-1	fruit	apple
-2	fruit	banana
-3	fruit	pear
-4	fruit	pineapple
-5	fruit	grape
-6	fruit	peach
-7	fruit	orange
-8	fruit	strawberry
+1	fruit	apple苹果
+2	fruit	banana香蕉
+3	fruit	pear梨
+4	fruit	pineapple凤梨
+5	fruit	grape葡萄
+6	fruit	peach桃
+7	fruit	orange橘子
+8	fruit	strawberry草莓

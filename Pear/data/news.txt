@@ -1,7 +1,7 @@
 title	content
 Do you eat breakfast?	I am a happy girl.
-Do you eat lunch?	I am a happy girl.
+Do you eat lunch?	我是一个快乐的女孩。
 Do you eat dinner?	I am a happy girl.
 Do you love me?	I am a happy girl.
-Do you love her?	I am a happy girl.
+Do you love her?	我是一个快乐的女孩，嘻嘻嘻。
 Do you love him?	I am a happy girl.

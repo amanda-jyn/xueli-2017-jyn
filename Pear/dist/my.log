@@ -1424,3 +1424,75 @@ Session ID: 9abe04a6-f248-4f6d-b7e1-ed177a6bc3e4
 [INFO ] 2017-11-29 16:55:09,766 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
 [INFO ] 2017-11-29 16:55:24,235 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
 [INFO ] 2017-11-29 16:55:38,550 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
+[INFO ] 2017-11-30 15:18:59,886 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 15:18:59,912 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 15:19:03,544 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-30 15:19:13,160 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-30 15:46:10,963 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 15:46:10,969 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 15:46:14,460 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-30 15:46:24,209 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-30 15:46:38,900 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
+[INFO ] 2017-11-30 15:46:53,368 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
+[INFO ] 2017-11-30 15:47:08,167 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
+[INFO ] 2017-11-30 15:47:22,887 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
+[INFO ] 2017-11-30 15:47:37,258 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
+[INFO ] 2017-11-30 15:47:52,132 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
+[INFO ] 2017-11-30 15:48:06,780 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
+[INFO ] 2017-11-30 15:48:21,136 com.webtest.util.Log - expectedValue :发布消息  match actualValue:发布消息
+[INFO ] 2017-11-30 16:06:55,056 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:06:55,065 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:06:58,648 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-30 16:07:08,261 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-30 16:13:30,680 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:13:30,688 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:13:34,208 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-30 16:13:43,922 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-30 16:31:39,769 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:31:39,777 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:31:43,338 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-30 16:31:52,761 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-30 16:40:53,255 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:40:53,268 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:40:56,827 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-30 16:41:06,685 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-30 16:41:20,741 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'添加展示图')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.Kv4LIDaTvtHG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=12400, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: f4387ae6-0105-46bc-a04a-d3d18d0b99a6
+*** Element info: {Using=xpath, value=//a[contains(.,'添加展示图')]}
+[INFO ] 2017-11-30 16:41:34,848 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'添加展示图')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.Kv4LIDaTvtHG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=12400, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: f4387ae6-0105-46bc-a04a-d3d18d0b99a6
+*** Element info: {Using=xpath, value=//a[contains(.,'添加展示图')]}
+[INFO ] 2017-11-30 16:41:49,154 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'添加展示图')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.Kv4LIDaTvtHG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=12400, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: f4387ae6-0105-46bc-a04a-d3d18d0b99a6
+*** Element info: {Using=xpath, value=//a[contains(.,'添加展示图')]}
+[INFO ] 2017-11-30 16:42:03,507 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'添加展示图')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.Kv4LIDaTvtHG, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=12400, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: f4387ae6-0105-46bc-a04a-d3d18d0b99a6
+*** Element info: {Using=xpath, value=//a[contains(.,'添加展示图')]}
+[INFO ] 2017-11-30 16:43:54,682 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:43:54,687 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:43:58,289 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-30 16:44:06,108 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-11-30 16:46:26,172 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-11-30 16:46:26,176 com.webtest.util.Log - firefox
+[INFO ] 2017-11-30 16:46:29,795 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-11-30 16:46:37,327 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,

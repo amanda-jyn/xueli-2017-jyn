@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Pear.news.MessageRemove">
+      <class name="Pear.market.AddPicture">
         <methods>
+          <include name="add" invocation-numbers="0 1 2 3"/>
           <include name="Login"/>
-          <include name="delete"/>
           <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- Pear.news.MessageRemove -->
+      </class> <!-- Pear.market.AddPicture -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
