@@ -1,24 +1,16 @@
 package Pear.news;
 
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
 import com.webtest.core.Checker;
-import com.webtest.testlistener.TestListener;
-
 import Pear.login.PearLogin;
-@Listeners(TestListener.class)
+
 public class PubSearch extends BaseTest{
 	@Test
-	public void Login() throws InterruptedException{
+	public void Login() throws Exception{
 		PearLogin lg=new PearLogin(webtest);
-		try {
-			lg.login();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		lg.login();
 	}
 	@Test(dependsOnMethods="Login")
 	public void search() throws Exception{

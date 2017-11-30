@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<project name ="javacTest" default="sendmail" basedir=".">
+	<!-- 定义全局变量 -->
+	<!--将与业务实现有关的路径都设置为全局变量-->
+	<property name="dest" value="${basedir}\build\classes" />
+	<property name="testng.output.dir" value="${basedir}/test-output"/>
+	<property name="lib.dir" value="${basedir}\lib" />
+	 <!-- 定义类路径 -->
+	<path id="classes">
+	     <fileset dir="${basedir}\lib" includes="*.jar"/>
+		 <pathelement location="${dest}"/>
+	</path>
+	    <path id="test.classpath" >
+	         <!-- adding the saxon jar to your classpath -->
+	        <fileset dir="${lib.dir}" includes="*.jar" />
+	</path>
+	
+	<target name="clean">
+        <delete dir="${dest}"/>
+    </target>
+    
+	<taskdef resource="testngtasks" classpath="${basedir}\lib\testng-6.9.9.jar"/>
+	
+    <!-- 编译 src目录 -->   
+    <target name="compile"  depends ="clean">
+    	<mkdir dir ="${dest}"/>
+    	  <javac srcdir="${basedir}\src" destdir="${dest}"  classpathref="classes" includeantruntime="on"  encoding="GBK"/>
+    </target> 
+	
+    <!-- 运行xml文档 -->
+    <target name="run"  depends ="compile">
+    	<testng outputdir="${testng.output.dir}" classpathref="classes" >
+    	 	<xmlfileset dir="${basedir}" includes="testng.xml"/>
+    	</testng>
+    </target>
+	
+    <!--美化报告-->   
+    <target name="transform" depends="run">
+        <xslt in="${basedir}\test-output\testng-results.xml" style="${basedir}\test-output\testng-results.xsl"
+              out="${basedir}\test-output\testReport.html">
+            <param name="testNgXslt.outputDir" expression="${basedir}\test-output"/>
+            <classpath refid="test.classpath"/>
+        </xslt>
+    </target>
+	
+	<!--压缩美化报告-->
+    <target name="zip" depends="transform" >
+        <zip destfile="${basedir}\beauty.zip">
+            <zipfileset dir="${basedir}/test-output/"/>
+        </zip>
+    </target>
+	
+	<!--发送压缩后的美化报告-->
+	<target name="sendmail" depends="zip">
+    	<testng outputdir="${testng.output.dir}" classpathref="classes" >
+    	 	<xmlfileset dir="${basedir}" includes="testng-listener.xml"/>
+    	</testng>		
+	</target>
+    
+</project>

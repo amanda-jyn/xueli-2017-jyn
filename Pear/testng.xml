@@ -1,0 +1,30 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1">
+<listeners>
+	<listener class-name="com.webtest.testlistener.TestListener"></listener>
+</listeners>
+<test name="login" >
+	<packages>
+		<package name="Pear.login"></package>
+	</packages>
+</test>
+<!-- 
+    <test name="talk" >
+		<packages>
+			<package name="Pear.talk"></package>
+		</packages>
+  	</test>
+  	<test name="news" >
+		<packages>
+			<package name="Pear.news"></package>
+		</packages>
+  	</test>
+  	<test name="market" >
+		<packages>
+			<package name="Pear.market"></package>
+		</packages>
+  	</test>
+ --> 	
+</suite>

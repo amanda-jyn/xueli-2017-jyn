@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="20511" started-at="2017-11-30T08:46:16Z" finished-at="2017-11-30T08:46:37Z">
+  <suite name="Suite2" duration-ms="21175" started-at="2017-12-08T02:44:50Z" finished-at="2017-12-08T02:45:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="20511" started-at="2017-11-30T08:46:16Z" finished-at="2017-11-30T08:46:37Z">
-      <class name="Pear.login.TestLogin">
-        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.login.TestLogin@2b98378d]" name="doBeforeMethod" is-config="true" duration-ms="9448" started-at="2017-11-30T16:46:16Z" finished-at="2017-11-30T16:46:26Z">
+    <test name="Test" duration-ms="21175" started-at="2017-12-08T02:44:50Z" finished-at="2017-12-08T02:45:11Z">
+      <class name="com.webtest.mail.SendMail">
+        <test-method status="PASS" signature="send()[pri:0, instance:com.webtest.mail.SendMail@224aed64]" name="send" duration-ms="21159" started-at="2017-12-08T10:44:50Z" finished-at="2017-12-08T10:45:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doBeforeMethod -->
-        <test-method status="PASS" signature="testlogin()[pri:0, instance:Pear.login.TestLogin@2b98378d]" name="testlogin" duration-ms="11011" started-at="2017-11-30T16:46:26Z" finished-at="2017-11-30T16:46:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testlogin -->
-      </class> <!-- Pear.login.TestLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- send -->
+      </class> <!-- com.webtest.mail.SendMail -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite2 -->
 </testng-results>

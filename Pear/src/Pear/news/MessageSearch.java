@@ -1,14 +1,11 @@
 package Pear.news;
 
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
 import com.webtest.core.Checker;
-import com.webtest.testlistener.TestListener;
-
 import Pear.login.PearLogin;
-@Listeners(TestListener.class)
+
 public class MessageSearch extends BaseTest{
 	@Test
 	public void Login() throws InterruptedException{

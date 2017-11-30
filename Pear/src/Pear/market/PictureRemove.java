@@ -1,13 +1,10 @@
 package Pear.market;
 
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
-import com.webtest.testlistener.TestListener;
-
 import Pear.login.PearLogin;
-@Listeners(TestListener.class)
+
 public class PictureRemove extends BaseTest{
 	@Test
 	public void Login() throws InterruptedException{

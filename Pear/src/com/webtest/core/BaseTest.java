@@ -13,14 +13,9 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-
-
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import com.webtest.util.Log;
 
 
@@ -104,7 +99,7 @@ public class BaseTest {
 	
 
 
-	@BeforeTest
+	@BeforeClass
 	public void doBeforeMethod() throws Exception {
 		driverType=getCfgProperty("driverType");
 		driver = this.newWebDriver(driverType);
@@ -119,12 +114,12 @@ public class BaseTest {
 		
 	}
 
-//	@AfterTest
-//	public void doAfterMethod() throws InterruptedException {
-//		if(this.driver != null){
-//			this.driver.quit();
-//			}
-//		Log.info("Quitted Browser");
-//	}	
+	@AfterClass
+	public void doAfterMethod() throws InterruptedException {
+		if(this.driver != null){
+			this.driver.quit();
+			}
+		Log.info("Quitted Browser");
+	}	
 
 }

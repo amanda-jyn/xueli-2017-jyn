@@ -1496,3 +1496,163 @@ Session ID: f4387ae6-0105-46bc-a04a-d3d18d0b99a6
 [INFO ] 2017-11-30 16:46:26,176 com.webtest.util.Log - firefox
 [INFO ] 2017-11-30 16:46:29,795 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
 [INFO ] 2017-11-30 16:46:37,327 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 08:33:50,602 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 08:33:50,620 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 08:33:54,726 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 08:34:02,576 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 08:56:22,024 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 08:56:22,029 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 08:56:25,586 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 08:56:34,913 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 09:47:30,798 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 09:47:30,804 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 09:47:34,476 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 09:47:42,453 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 09:48:21,734 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 09:48:21,738 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 09:48:25,276 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 09:48:32,728 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 09:55:40,559 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 09:55:40,563 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 09:55:45,234 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 09:55:53,506 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 09:57:35,394 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 09:57:35,397 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 09:57:38,956 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 09:57:48,188 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 09:59:14,800 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 09:59:14,804 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 09:59:18,299 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 09:59:26,675 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 10:00:19,211 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 10:00:19,215 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 10:00:22,743 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 10:00:30,521 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 10:02:26,902 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 10:02:26,907 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 10:02:30,547 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 10:02:38,826 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 10:05:42,832 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 10:05:42,835 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 10:05:46,356 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 10:05:54,004 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 10:17:49,618 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 10:17:49,628 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 10:17:53,302 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 10:18:00,977 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 10:19:09,327 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 10:19:09,340 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 10:19:13,163 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 10:19:20,729 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 10:59:04,739 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 10:59:04,743 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 10:59:08,380 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 10:59:16,371 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 10:59:55,222 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 10:59:55,225 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 10:59:58,790 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 11:00:07,082 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-05 11:09:15,838 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-05 11:09:15,841 com.webtest.util.Log - firefox
+[INFO ] 2017-12-05 11:09:19,415 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-05 11:09:27,182 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-06 09:22:16,458 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-06 09:22:16,472 com.webtest.util.Log - firefox
+[INFO ] 2017-12-06 09:22:20,477 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-06 09:22:28,029 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-06 21:52:38,209 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-06 21:52:38,230 com.webtest.util.Log - firefox
+[INFO ] 2017-12-06 21:52:41,817 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-06 21:52:50,004 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-06 21:52:53,335 com.webtest.util.Log - expectedValue :”—«È¡¥Ω”¡–±Ì  match actualValue:”—«È¡¥Ω”¡–±Ì
+[INFO ] 2017-12-07 14:51:51,023 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-07 14:51:51,125 com.webtest.util.Log - firefox
+[INFO ] 2017-12-07 14:51:54,659 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-07 14:52:02,407 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-07 14:52:09,134 com.webtest.util.Log - expectedValue :ªÿ∏¥ƒ⁄»›  match actualValue:ªÿ∏¥ƒ⁄»›
+[INFO ] 2017-12-07 14:54:15,158 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-07 14:54:15,161 com.webtest.util.Log - firefox
+[INFO ] 2017-12-07 14:54:18,656 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-07 14:54:26,772 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-07 14:54:33,539 com.webtest.util.Log - expectedValue :¡Ù—‘ƒ⁄»›  match actualValue:¡Ù—‘ƒ⁄»›
+[INFO ] 2017-12-07 14:54:44,329 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-12-07 14:54:52,371 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-07 14:54:52,371 com.webtest.util.Log - firefox
+[INFO ] 2017-12-07 14:54:52,531 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains(.,' ¡Ù—‘π‹¿Ì ')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.BCQXv30NXpjl, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=14980, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 536c1545-690d-45dd-b6b1-826c8d1658f0
+*** Element info: {Using=xpath, value=//span[contains(.,' ¡Ù—‘π‹¿Ì ')]}
+[INFO ] 2017-12-07 14:54:52,562 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'ªÿ∏¥¡–±Ì')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.BCQXv30NXpjl, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=14980, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 536c1545-690d-45dd-b6b1-826c8d1658f0
+*** Element info: {Using=xpath, value=//a[contains(.,'ªÿ∏¥¡–±Ì')]}
+[INFO ] 2017-12-07 14:54:52,578 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='nav-search-input']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.BCQXv30NXpjl, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=14980, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 536c1545-690d-45dd-b6b1-826c8d1658f0
+*** Element info: {Using=xpath, value=//input[@id='nav-search-input']}
+[INFO ] 2017-12-07 14:54:52,595 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //button[contains(.,'À—À˜')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.BCQXv30NXpjl, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=14980, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 536c1545-690d-45dd-b6b1-826c8d1658f0
+*** Element info: {Using=xpath, value=//button[contains(.,'À—À˜')]}
+[INFO ] 2017-12-07 14:54:52,611 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //th[contains(.,'ªÿ∏¥ƒ⁄»›')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.BCQXv30NXpjl, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=14980, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 536c1545-690d-45dd-b6b1-826c8d1658f0
+*** Element info: {Using=xpath, value=//th[contains(.,'ªÿ∏¥ƒ⁄»›')]}
+[INFO ] 2017-12-07 14:55:02,349 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-12-07 14:55:11,403 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-07 14:55:11,403 com.webtest.util.Log - firefox
+[INFO ] 2017-12-07 14:55:15,152 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-07 14:55:22,698 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-07 14:55:33,002 com.webtest.util.Log - expectedValue :¡Ù—‘ƒ⁄»›  match actualValue:¡Ù—‘ƒ⁄»›
+[INFO ] 2017-12-07 14:55:38,225 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-12-07 14:55:46,307 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-07 14:55:46,308 com.webtest.util.Log - firefox
+[INFO ] 2017-12-07 14:55:50,105 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-07 14:55:58,285 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-07 14:56:04,997 com.webtest.util.Log - expectedValue :ªÿ∏¥ƒ⁄»›  match actualValue:ªÿ∏¥ƒ⁄»›
+[INFO ] 2017-12-07 14:56:10,454 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-12-07 14:56:18,532 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-07 14:56:18,532 com.webtest.util.Log - firefox
+[INFO ] 2017-12-07 14:56:18,670 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //span[contains(.,' ¡Ù—‘π‹¿Ì ')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.43YJOMNXFV9b, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=7060, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 876abbea-1524-4863-a53c-d53eb8b27837
+*** Element info: {Using=xpath, value=//span[contains(.,' ¡Ù—‘π‹¿Ì ')]}
+[INFO ] 2017-12-07 14:56:18,686 com.webtest.util.Log - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[contains(.,'¡Ù—‘¡–±Ì')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.43YJOMNXFV9b, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=7060, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 876abbea-1524-4863-a53c-d53eb8b27837
+*** Element info: {Using=xpath, value=//a[contains(.,'¡Ù—‘¡–±Ì')]}
+[INFO ] 2017-12-07 14:56:24,376 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-12-07 14:59:30,074 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-07 14:59:30,079 com.webtest.util.Log - firefox
+[INFO ] 2017-12-07 14:59:33,634 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-07 14:59:41,890 com.webtest.util.Log - expectedValue :ª∂”≠π‚¡Ÿ,  match actualValue:ª∂”≠π‚¡Ÿ,
+[INFO ] 2017-12-07 14:59:53,338 com.webtest.util.Log - expectedValue :ªÿ∏¥ƒ⁄»›  match actualValue:ªÿ∏¥ƒ⁄»›
+[INFO ] 2017-12-07 15:00:01,851 com.webtest.util.Log - Quitted Browser

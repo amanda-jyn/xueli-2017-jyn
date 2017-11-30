@@ -1,15 +1,11 @@
 package Pear.market;
 
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.webtest.core.BaseTest;
-import com.webtest.core.Checker;
 import com.webtest.dataprovider.NSDataProvicer;
-import com.webtest.testlistener.TestListener;
-
 import Pear.login.PearLogin;
-@Listeners(TestListener.class)
+
 public class AddPicture extends BaseTest{
 	@Test
 	public void Login() throws InterruptedException{

@@ -13,10 +13,10 @@ import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
-public class SendMail {
+import org.testng.annotations.Test;
 
-    public void setemail() throws Exception {
-        
+public class SendMail {
+    public void setemail() throws Exception {       
         Properties prop = new Properties();
         prop.setProperty("mail.host", "smtp.qq.com");
         prop.setProperty("mail.transport.protocol", "smtp");
@@ -30,15 +30,13 @@ public class SendMail {
         //2、通过session得到transport对象
         Transport ts = session.getTransport();
         //3、连上邮件服务器
-        ts.connect("smtp.qq.com", "759108470@qq.com", "smyqokcppxtsbfjj");
+        ts.connect("smtp.qq.com", "759108470@qq.com", "uxqsrjzodeucbdia");
         //4、创建邮件
         Message message = createAttachMail(session);
         //5、发送邮件
         ts.sendMessage(message, message.getAllRecipients());
         ts.close();
     }
-    
-
     public MimeMessage createAttachMail(Session session) throws Exception{
         MimeMessage message = new MimeMessage(session);
         
@@ -55,14 +53,24 @@ public class SendMail {
         text.setContent("TestNG测试报告", "text/html;charset=UTF-8");
         
         //创建邮件附件
+//        MimeBodyPart attach1 = new MimeBodyPart();
+//        DataHandler dh1 = new DataHandler(new FileDataSource("E:\\xueli-2017-jyn\\Pear\\test-output\\overview.html"));
+//        attach1.setDataHandler(dh1);
+//        attach1.setFileName(dh1.getName());
+//        MimeBodyPart attach2 = new MimeBodyPart();
+//        DataHandler dh2 = new DataHandler(new FileDataSource("E:\\xueli-2017-jyn\\Pear\\test-output\\navigation.html"));
+//        attach2.setDataHandler(dh2);
+//        attach2.setFileName(dh2.getName());
         MimeBodyPart attach = new MimeBodyPart();
-        DataHandler dh = new DataHandler(new FileDataSource("E:\\xueli-2017-jyn\\Pear\\test-output\\index.html"));
+        DataHandler dh = new DataHandler(new FileDataSource("E:/xueli-2017-jyn/Pear/beauty.zip"));
         attach.setDataHandler(dh);
-        attach.setFileName(dh.getName());  //
+        attach.setFileName(dh.getName());
         
         //创建容器描述数据关系
         MimeMultipart mp = new MimeMultipart();
         mp.addBodyPart(text);
+//        mp.addBodyPart(attach1);
+//        mp.addBodyPart(attach2);
         mp.addBodyPart(attach);
         mp.setSubType("mixed");
         
@@ -72,5 +80,21 @@ public class SendMail {
         message.writeTo(new FileOutputStream("E:\\attachMail.eml"));
         //返回生成的邮件
         return message;
+    }
+    @Test
+    public void send(){
+    	SendMail sendmail=new SendMail();
+		try {
+			sendmail.setemail();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			sendmail.createAttachMail(null);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+}
     }
 }
