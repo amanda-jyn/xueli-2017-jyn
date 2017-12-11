@@ -1,0 +1,4 @@
+name	address	file
+禅道2	www.zentao.com	E:\\xueli-2017-jyn\\tuanzi.jpg
+bugfree3	www.bugfree.com	E:\\xueli-2017-jyn\\cat.png
+redmine4	www.redmine.com	E:\\xueli-2017-jyn\\tuanzi.jpg

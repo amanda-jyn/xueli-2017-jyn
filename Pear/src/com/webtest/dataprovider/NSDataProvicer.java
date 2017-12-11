@@ -22,6 +22,11 @@ public class NSDataProvicer {
 		FileDataProvider ft = new FileDataProvider("data/tips.txt");
 		return ft.getTestDataByTxt();
 	}
+	@DataProvider(name="s4")
+	public static Object[][] getTxt4(){
+		FileDataProvider ft = new FileDataProvider("data/link.txt");
+		return ft.getTestDataByTxt();
+	}
 	
 
 	

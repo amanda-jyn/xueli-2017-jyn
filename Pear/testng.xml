@@ -5,13 +5,14 @@
 <listeners>
 	<listener class-name="com.webtest.testlistener.TestListener"></listener>
 </listeners>
-<test name="login" >
-	<packages>
-		<package name="Pear.login"></package>
-	</packages>
-</test>
-<!-- 
-    <test name="talk" >
+
+
+	<test name="login">
+		<packages>
+			<package name="Pear.login"></package>
+		</packages>
+	</test>
+	<test name="talk" >
 		<packages>
 			<package name="Pear.talk"></package>
 		</packages>
@@ -26,5 +27,9 @@
 			<package name="Pear.market"></package>
 		</packages>
   	</test>
- --> 	
+	<test name="link" >
+		<packages>
+			<package name="Pear.link"></package>
+		</packages>
+	</test>	
 </suite>

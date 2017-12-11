@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="com.webtest.testlistener.TestListener"/>
+  </listeners>
+  <test name="link(failed)">
+    <classes>
+      <class name="Pear.link.LinkListSearch">
+        <methods>
+          <include name="Search"/>
+          <include name="doAfterMethod"/>
+          <include name="Login"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.LinkListSearch -->
+      <class name="Pear.link.AddLinkSearch">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.AddLinkSearch -->
+      <class name="Pear.link.LinkClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.LinkClick -->
+      <class name="Pear.link.AddLink">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.AddLink -->
+      <class name="Pear.link.RemoveLink">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.RemoveLink -->
+      <class name="Pear.link.LinkListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.LinkListClick -->
+      <class name="Pear.link.AddLinkListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.AddLinkListClick -->
+      <class name="Pear.link.ChangeClickNew">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.ChangeClickNew -->
+      <class name="Pear.link.ChangeLinkAbandon">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.ChangeLinkAbandon -->
+      <class name="Pear.link.ChangeLinkAppear">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.ChangeLinkAppear -->
+    </classes>
+  </test> <!-- link(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

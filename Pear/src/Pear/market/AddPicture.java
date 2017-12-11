@@ -20,7 +20,7 @@ public class AddPicture extends BaseTest{
 		webtest.click("xpath=//a[contains(.,'展示图列表')]");
 		webtest.click("xpath=//a[contains(.,'添加展示图')]");
 	}
-	@Test(dependsOnMethods="Login",dataProvider="s2",dataProviderClass=NSDataProvicer.class)
+	@Test(dependsOnMethods="Login",dataProvider="s4",dataProviderClass=NSDataProvicer.class)
 	public void add(String title,String link,String file) throws Exception{
 
 		webtest.type("xpath=//input[@name='title']", title);

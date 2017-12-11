@@ -1656,3 +1656,9 @@ Session ID: 876abbea-1524-4863-a53c-d53eb8b27837
 [INFO ] 2017-12-07 14:59:41,890 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
 [INFO ] 2017-12-07 14:59:53,338 com.webtest.util.Log - expectedValue :回复内容  match actualValue:回复内容
 [INFO ] 2017-12-07 15:00:01,851 com.webtest.util.Log - Quitted Browser
+[INFO ] 2017-12-11 14:24:31,120 com.webtest.util.Log - Using Firefox
+[INFO ] 2017-12-11 14:24:31,162 com.webtest.util.Log - firefox
+[INFO ] 2017-12-11 14:24:34,761 com.webtest.util.Log - Opened url http://localhost:8032/zl_shop/admin.php/Login/index.html
+[INFO ] 2017-12-11 14:24:42,830 com.webtest.util.Log - expectedValue :欢迎光临,  match actualValue:欢迎光临,
+[INFO ] 2017-12-11 14:24:46,146 com.webtest.util.Log - expectedValue :友情链接列表  match actualValue:友情链接列表
+[INFO ] 2017-12-11 14:24:53,308 com.webtest.util.Log - Quitted Browser

@@ -53,7 +53,7 @@
 	<!--发送压缩后的美化报告-->
 	<target name="sendmail" depends="zip">
     	<testng outputdir="${testng.output.dir}" classpathref="classes" >
-    	 	<xmlfileset dir="${basedir}" includes="testng-listener.xml"/>
+    	 	<xmlfileset dir="${basedir}" includes="testng-mail.xml"/>
     	</testng>		
 	</target>
     
