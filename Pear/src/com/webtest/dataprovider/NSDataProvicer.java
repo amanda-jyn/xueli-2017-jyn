@@ -27,6 +27,11 @@ public class NSDataProvicer {
 		FileDataProvider ft = new FileDataProvider("data/link.txt");
 		return ft.getTestDataByTxt();
 	}
+	@DataProvider(name="s5")
+	public static Object[][] getTxt5(){
+		FileDataProvider ft = new FileDataProvider("data/authority.txt");
+		return ft.getTestDataByTxt();
+	}
 	
 
 	

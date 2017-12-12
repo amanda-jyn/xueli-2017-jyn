@@ -6,7 +6,6 @@
 	<listener class-name="com.webtest.testlistener.TestListener"></listener>
 </listeners>
 
-
 	<test name="login">
 		<packages>
 			<package name="Pear.login"></package>
@@ -31,5 +30,10 @@
 		<packages>
 			<package name="Pear.link"></package>
 		</packages>
-	</test>	
+	</test>	  
+	<test name="authority" >
+		<packages>
+			<package name="Pear.authority"></package>
+		</packages>
+	</test>	  
 </suite>

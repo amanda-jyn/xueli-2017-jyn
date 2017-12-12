@@ -4,70 +4,52 @@
   <listeners>
     <listener class-name="com.webtest.testlistener.TestListener"/>
   </listeners>
-  <test name="link(failed)">
+  <test name="authority(failed)">
     <classes>
-      <class name="Pear.link.LinkListSearch">
+      <class name="Pear.authority.AuthorityClick">
         <methods>
-          <include name="Search"/>
+          <include name="Login"/>
+          <include name="Click"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityClick -->
+      <class name="Pear.authority.AddAuthority">
+        <methods>
           <include name="doAfterMethod"/>
           <include name="Login"/>
+          <include name="add" invocation-numbers="6"/>
           <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- Pear.link.LinkListSearch -->
-      <class name="Pear.link.AddLinkSearch">
+      </class> <!-- Pear.authority.AddAuthority -->
+      <class name="Pear.authority.ViewAuthorityClick">
         <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
+          <include name="Click"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- Pear.link.AddLinkSearch -->
-      <class name="Pear.link.LinkClick">
+      </class> <!-- Pear.authority.ViewAuthorityClick -->
+      <class name="Pear.authority.AddAuthorityClick">
         <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
+          <include name="Login"/>
+          <include name="Click"/>
         </methods>
-      </class> <!-- Pear.link.LinkClick -->
-      <class name="Pear.link.AddLink">
+      </class> <!-- Pear.authority.AddAuthorityClick -->
+      <class name="Pear.authority.AuthorityListClick">
         <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
+          <include name="Login"/>
+          <include name="Click"/>
         </methods>
-      </class> <!-- Pear.link.AddLink -->
-      <class name="Pear.link.RemoveLink">
+      </class> <!-- Pear.authority.AuthorityListClick -->
+      <class name="Pear.authority.DetailsClick">
         <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
+          <include name="Click"/>
+          <include name="Login"/>
         </methods>
-      </class> <!-- Pear.link.RemoveLink -->
-      <class name="Pear.link.LinkListClick">
+      </class> <!-- Pear.authority.DetailsClick -->
+      <class name="Pear.authority.RemoveMember">
         <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
+          <include name="Login"/>
+          <include name="remove"/>
         </methods>
-      </class> <!-- Pear.link.LinkListClick -->
-      <class name="Pear.link.AddLinkListClick">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- Pear.link.AddLinkListClick -->
-      <class name="Pear.link.ChangeClickNew">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- Pear.link.ChangeClickNew -->
-      <class name="Pear.link.ChangeLinkAbandon">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- Pear.link.ChangeLinkAbandon -->
-      <class name="Pear.link.ChangeLinkAppear">
-        <methods>
-          <include name="doAfterMethod"/>
-          <include name="doBeforeMethod"/>
-        </methods>
-      </class> <!-- Pear.link.ChangeLinkAppear -->
+      </class> <!-- Pear.authority.RemoveMember -->
     </classes>
-  </test> <!-- link(failed) -->
+  </test> <!-- authority(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
