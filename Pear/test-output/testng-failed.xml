@@ -4,52 +4,660 @@
   <listeners>
     <listener class-name="com.webtest.testlistener.TestListener"/>
   </listeners>
-  <test name="authority(failed)">
+  <test name="login(failed)">
     <classes>
-      <class name="Pear.authority.AuthorityClick">
+      <class name="Pear.login.PersonalCenter">
         <methods>
-          <include name="Login"/>
-          <include name="Click"/>
+          <include name="login"/>
+          <include name="writeinfo"/>
         </methods>
-      </class> <!-- Pear.authority.AuthorityClick -->
+      </class> <!-- Pear.login.PersonalCenter -->
       <class name="Pear.authority.AddAuthority">
         <methods>
           <include name="doAfterMethod"/>
-          <include name="Login"/>
-          <include name="add" invocation-numbers="6"/>
           <include name="doBeforeMethod"/>
         </methods>
       </class> <!-- Pear.authority.AddAuthority -->
-      <class name="Pear.authority.ViewAuthorityClick">
+      <class name="Pear.talk.TalkClick">
         <methods>
-          <include name="Click"/>
-          <include name="Login"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
         </methods>
-      </class> <!-- Pear.authority.ViewAuthorityClick -->
-      <class name="Pear.authority.AddAuthorityClick">
-        <methods>
-          <include name="Login"/>
-          <include name="Click"/>
-        </methods>
-      </class> <!-- Pear.authority.AddAuthorityClick -->
-      <class name="Pear.authority.AuthorityListClick">
-        <methods>
-          <include name="Login"/>
-          <include name="Click"/>
-        </methods>
-      </class> <!-- Pear.authority.AuthorityListClick -->
+      </class> <!-- Pear.talk.TalkClick -->
       <class name="Pear.authority.DetailsClick">
         <methods>
-          <include name="Click"/>
-          <include name="Login"/>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
         </methods>
       </class> <!-- Pear.authority.DetailsClick -->
       <class name="Pear.authority.RemoveMember">
         <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.RemoveMember -->
+      <class name="Pear.login.PearLogout">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.login.PearLogout -->
+      <class name="Pear.login.TestLogin">
+        <methods>
+          <include name="testlogin"/>
+        </methods>
+      </class> <!-- Pear.login.TestLogin -->
+      <class name="Pear.authority.ViewAuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.ViewAuthorityClick -->
+      <class name="Pear.link.AddLink">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.AddLink -->
+      <class name="Pear.talk.RepoListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.RepoListClick -->
+      <class name="Pear.news.MessageChange">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.news.MessageChange -->
+      <class name="Pear.authority.AuthorityListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityListClick -->
+      <class name="Pear.market.AddPicture">
+        <methods>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.market.AddPicture -->
+      <class name="Pear.authority.AddAuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AddAuthorityClick -->
+      <class name="Pear.talk.RepoListSelect">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.RepoListSelect -->
+      <class name="Pear.authority.AuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityClick -->
+      <class name="Pear.login.ResetInfo">
+        <methods>
+          <include name="reset"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- Pear.login.ResetInfo -->
+    </classes>
+  </test> <!-- login(failed) -->
+  <test name="talk(failed)">
+    <classes>
+      <class name="Pear.authority.AddAuthority">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AddAuthority -->
+      <class name="Pear.talk.TalkClick">
+        <methods>
+          <include name="Login"/>
+          <include name="doAfterMethod"/>
+          <include name="Click"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.TalkClick -->
+      <class name="Pear.authority.DetailsClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.DetailsClick -->
+      <class name="Pear.authority.RemoveMember">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.RemoveMember -->
+      <class name="Pear.login.PearLogout">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.login.PearLogout -->
+      <class name="Pear.authority.ViewAuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.ViewAuthorityClick -->
+      <class name="Pear.link.AddLink">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.AddLink -->
+      <class name="Pear.talk.TalkListSelect">
+        <methods>
+          <include name="search"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.talk.TalkListSelect -->
+      <class name="Pear.talk.RepoListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.RepoListClick -->
+      <class name="Pear.news.MessageChange">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.news.MessageChange -->
+      <class name="Pear.authority.AuthorityListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityListClick -->
+      <class name="Pear.market.AddPicture">
+        <methods>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.market.AddPicture -->
+      <class name="Pear.authority.AddAuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AddAuthorityClick -->
+      <class name="Pear.talk.RepoListSelect">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.RepoListSelect -->
+      <class name="Pear.authority.AuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityClick -->
+      <class name="Pear.talk.TalkListClick">
+        <methods>
+          <include name="Login"/>
+          <include name="Click"/>
+        </methods>
+      </class> <!-- Pear.talk.TalkListClick -->
+    </classes>
+  </test> <!-- talk(failed) -->
+  <test name="news(failed)">
+    <classes>
+      <class name="Pear.news.PubChangeoverdue">
+        <methods>
+          <include name="Login"/>
+          <include name="change"/>
+        </methods>
+      </class> <!-- Pear.news.PubChangeoverdue -->
+      <class name="Pear.news.PubChangepublished">
+        <methods>
+          <include name="change"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.news.PubChangepublished -->
+      <class name="Pear.talk.TalkClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.TalkClick -->
+      <class name="Pear.authority.RemoveMember">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.RemoveMember -->
+      <class name="Pear.news.PubRemove">
+        <methods>
+          <include name="Login"/>
+          <include name="delete"/>
+        </methods>
+      </class> <!-- Pear.news.PubRemove -->
+      <class name="Pear.talk.RepoListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.RepoListClick -->
+      <class name="Pear.news.MessageChange">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.news.MessageChange -->
+      <class name="Pear.news.NewsClick">
+        <methods>
+          <include name="Click"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.news.NewsClick -->
+      <class name="Pear.news.MessageClick">
+        <methods>
+          <include name="Login"/>
+          <include name="Click"/>
+        </methods>
+      </class> <!-- Pear.news.MessageClick -->
+      <class name="Pear.talk.RepoListSelect">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.RepoListSelect -->
+      <class name="Pear.authority.AuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityClick -->
+      <class name="Pear.news.MessageRemove">
+        <methods>
+          <include name="Login"/>
+          <include name="delete"/>
+        </methods>
+      </class> <!-- Pear.news.MessageRemove -->
+      <class name="Pear.authority.AddAuthority">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AddAuthority -->
+      <class name="Pear.news.PubChange">
+        <methods>
+          <include name="Login"/>
+          <include name="change"/>
+        </methods>
+      </class> <!-- Pear.news.PubChange -->
+      <class name="Pear.news.PubSearch">
+        <methods>
+          <include name="Login"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- Pear.news.PubSearch -->
+      <class name="Pear.news.MessageChangedelete">
+        <methods>
+          <include name="Login"/>
+          <include name="change"/>
+        </methods>
+      </class> <!-- Pear.news.MessageChangedelete -->
+      <class name="Pear.authority.DetailsClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.DetailsClick -->
+      <class name="Pear.news.PubClick">
+        <methods>
+          <include name="Click"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.news.PubClick -->
+      <class name="Pear.news.PublishMessage">
+        <methods>
+          <include name="Login"/>
+          <include name="publish"/>
+        </methods>
+      </class> <!-- Pear.news.PublishMessage -->
+      <class name="Pear.news.RewriteNews">
+        <methods>
+          <include name="Login"/>
+          <include name="rewrite"/>
+        </methods>
+      </class> <!-- Pear.news.RewriteNews -->
+      <class name="Pear.news.MessgaeChangeread">
+        <methods>
+          <include name="Login"/>
+          <include name="change"/>
+        </methods>
+      </class> <!-- Pear.news.MessgaeChangeread -->
+      <class name="Pear.login.PearLogout">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.login.PearLogout -->
+      <class name="Pear.authority.ViewAuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.ViewAuthorityClick -->
+      <class name="Pear.link.AddLink">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.AddLink -->
+      <class name="Pear.news.PublishNews">
+        <methods>
+          <include name="Login"/>
+          <include name="publish"/>
+        </methods>
+      </class> <!-- Pear.news.PublishNews -->
+      <class name="Pear.authority.AuthorityListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityListClick -->
+      <class name="Pear.market.AddPicture">
+        <methods>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.market.AddPicture -->
+      <class name="Pear.authority.AddAuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AddAuthorityClick -->
+      <class name="Pear.news.MessageSearch">
+        <methods>
+          <include name="search"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.news.MessageSearch -->
+    </classes>
+  </test> <!-- news(failed) -->
+  <test name="market(failed)">
+    <classes>
+      <class name="Pear.authority.AddAuthority">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AddAuthority -->
+      <class name="Pear.market.PictureStateChange">
+        <methods>
+          <include name="change"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.market.PictureStateChange -->
+      <class name="Pear.market.PictureListClick">
+        <methods>
+          <include name="Click"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.market.PictureListClick -->
+      <class name="Pear.market.StoreClick">
+        <methods>
+          <include name="Click"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.market.StoreClick -->
+      <class name="Pear.talk.TalkClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.TalkClick -->
+      <class name="Pear.authority.DetailsClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.DetailsClick -->
+      <class name="Pear.market.ShopTipsSearch">
+        <methods>
+          <include name="search"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.market.ShopTipsSearch -->
+      <class name="Pear.authority.RemoveMember">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.RemoveMember -->
+      <class name="Pear.login.PearLogout">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.login.PearLogout -->
+      <class name="Pear.market.ShopTipsClick">
+        <methods>
+          <include name="Login"/>
+          <include name="Click"/>
+        </methods>
+      </class> <!-- Pear.market.ShopTipsClick -->
+      <class name="Pear.authority.ViewAuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.ViewAuthorityClick -->
+      <class name="Pear.link.AddLink">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.AddLink -->
+      <class name="Pear.market.PictureListSearch">
+        <methods>
+          <include name="Login"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- Pear.market.PictureListSearch -->
+      <class name="Pear.talk.RepoListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.RepoListClick -->
+      <class name="Pear.news.MessageChange">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.news.MessageChange -->
+      <class name="Pear.authority.AuthorityListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityListClick -->
+      <class name="Pear.market.AddPicture">
+        <methods>
+          <include name="add"/>
+          <include name="Login"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.market.AddPicture -->
+      <class name="Pear.authority.AddAuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AddAuthorityClick -->
+      <class name="Pear.talk.RepoListSelect">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.RepoListSelect -->
+      <class name="Pear.authority.AuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityClick -->
+      <class name="Pear.market.PictureRemove">
+        <methods>
           <include name="Login"/>
           <include name="remove"/>
         </methods>
-      </class> <!-- Pear.authority.RemoveMember -->
+      </class> <!-- Pear.market.PictureRemove -->
     </classes>
-  </test> <!-- authority(failed) -->
+  </test> <!-- market(failed) -->
+  <test name="link(failed)">
+    <classes>
+      <class name="Pear.link.ChangeClickNew">
+        <methods>
+          <include name="Login"/>
+          <include name="change"/>
+        </methods>
+      </class> <!-- Pear.link.ChangeClickNew -->
+      <class name="Pear.link.LinkListClick">
+        <methods>
+          <include name="Click"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.link.LinkListClick -->
+      <class name="Pear.link.RemoveLink">
+        <methods>
+          <include name="Login"/>
+          <include name="remove"/>
+        </methods>
+      </class> <!-- Pear.link.RemoveLink -->
+      <class name="Pear.authority.AddAuthority">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AddAuthority -->
+      <class name="Pear.link.LinkClick">
+        <methods>
+          <include name="Click"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.link.LinkClick -->
+      <class name="Pear.link.LinkListSearch">
+        <methods>
+          <include name="Search"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.link.LinkListSearch -->
+      <class name="Pear.talk.TalkClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.TalkClick -->
+      <class name="Pear.authority.DetailsClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.DetailsClick -->
+      <class name="Pear.link.ChangeLinkAppear">
+        <methods>
+          <include name="change"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.link.ChangeLinkAppear -->
+      <class name="Pear.link.ChangeLinkAbandon">
+        <methods>
+          <include name="change"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.link.ChangeLinkAbandon -->
+      <class name="Pear.authority.RemoveMember">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.RemoveMember -->
+      <class name="Pear.login.PearLogout">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.login.PearLogout -->
+      <class name="Pear.authority.ViewAuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.ViewAuthorityClick -->
+      <class name="Pear.link.AddLink">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.link.AddLink -->
+      <class name="Pear.link.AddLinkSearch">
+        <methods>
+          <include name="Login"/>
+          <include name="Search"/>
+        </methods>
+      </class> <!-- Pear.link.AddLinkSearch -->
+      <class name="Pear.talk.RepoListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.RepoListClick -->
+      <class name="Pear.news.MessageChange">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.news.MessageChange -->
+      <class name="Pear.authority.AuthorityListClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityListClick -->
+      <class name="Pear.market.AddPicture">
+        <methods>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.market.AddPicture -->
+      <class name="Pear.authority.AddAuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AddAuthorityClick -->
+      <class name="Pear.link.AddLinkListClick">
+        <methods>
+          <include name="Click"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- Pear.link.AddLinkListClick -->
+      <class name="Pear.talk.RepoListSelect">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.talk.RepoListSelect -->
+      <class name="Pear.authority.AuthorityClick">
+        <methods>
+          <include name="doAfterMethod"/>
+          <include name="doBeforeMethod"/>
+        </methods>
+      </class> <!-- Pear.authority.AuthorityClick -->
+    </classes>
+  </test> <!-- link(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

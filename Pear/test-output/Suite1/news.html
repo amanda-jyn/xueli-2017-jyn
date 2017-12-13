@@ -1,0 +1,299 @@
+<html>
+<head>
+<title>TestNG:  news</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>news</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>44/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 14 15:00:43 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>692 seconds (692514 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pear.news.MessageClick.Click()'><b>Click</b><br>Test class: Pear.news.MessageClick</td>
+<td></td>
+<td>6</td>
+<td>Pear.news.MessageClick@1b40d5f0</td></tr>
+<tr>
+<td title='Pear.news.NewsClick.Click()'><b>Click</b><br>Test class: Pear.news.NewsClick</td>
+<td></td>
+<td>3</td>
+<td>Pear.news.NewsClick@71c7db30</td></tr>
+<tr>
+<td title='Pear.news.PubClick.Click()'><b>Click</b><br>Test class: Pear.news.PubClick</td>
+<td></td>
+<td>6</td>
+<td>Pear.news.PubClick@5e025e70</td></tr>
+<tr>
+<td title='Pear.news.MessageChange.Login()'><b>Login</b><br>Test class: Pear.news.MessageChange</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.MessageChange@23223dd8</td></tr>
+<tr>
+<td title='Pear.news.MessageChangedelete.Login()'><b>Login</b><br>Test class: Pear.news.MessageChangedelete</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.MessageChangedelete@4ec6a292</td></tr>
+<tr>
+<td title='Pear.news.MessageClick.Login()'><b>Login</b><br>Test class: Pear.news.MessageClick</td>
+<td></td>
+<td>11</td>
+<td>Pear.news.MessageClick@1b40d5f0</td></tr>
+<tr>
+<td title='Pear.news.MessageRemove.Login()'><b>Login</b><br>Test class: Pear.news.MessageRemove</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.MessageRemove@ea4a92b</td></tr>
+<tr>
+<td title='Pear.news.MessageSearch.Login()'><b>Login</b><br>Test class: Pear.news.MessageSearch</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.MessageSearch@47f37ef1</td></tr>
+<tr>
+<td title='Pear.news.MessgaeChangeread.Login()'><b>Login</b><br>Test class: Pear.news.MessgaeChangeread</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.MessgaeChangeread@5a01ccaa</td></tr>
+<tr>
+<td title='Pear.news.NewsClick.Login()'><b>Login</b><br>Test class: Pear.news.NewsClick</td>
+<td></td>
+<td>11</td>
+<td>Pear.news.NewsClick@71c7db30</td></tr>
+<tr>
+<td title='Pear.news.PubChange.Login()'><b>Login</b><br>Test class: Pear.news.PubChange</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PubChange@19bb089b</td></tr>
+<tr>
+<td title='Pear.news.PubChangeoverdue.Login()'><b>Login</b><br>Test class: Pear.news.PubChangeoverdue</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PubChangeoverdue@4563e9ab</td></tr>
+<tr>
+<td title='Pear.news.PubChangepublished.Login()'><b>Login</b><br>Test class: Pear.news.PubChangepublished</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PubChangepublished@11531931</td></tr>
+<tr>
+<td title='Pear.news.PubClick.Login()'><b>Login</b><br>Test class: Pear.news.PubClick</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PubClick@5e025e70</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.Login()'><b>Login</b><br>Test class: Pear.news.PublishMessage</td>
+<td></td>
+<td>17</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.Login()'><b>Login</b><br>Test class: Pear.news.PublishNews</td>
+<td></td>
+<td>16</td>
+<td>Pear.news.PublishNews@45c8e616</td></tr>
+<tr>
+<td title='Pear.news.PubRemove.Login()'><b>Login</b><br>Test class: Pear.news.PubRemove</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PubRemove@4cdbe50f</td></tr>
+<tr>
+<td title='Pear.news.PubSearch.Login()'><b>Login</b><br>Test class: Pear.news.PubSearch</td>
+<td></td>
+<td>9</td>
+<td>Pear.news.PubSearch@7cf10a6f</td></tr>
+<tr>
+<td title='Pear.news.RewriteNews.Login()'><b>Login</b><br>Test class: Pear.news.RewriteNews</td>
+<td></td>
+<td>17</td>
+<td>Pear.news.RewriteNews@7e0babb1</td></tr>
+<tr>
+<td title='Pear.news.MessageChange.change()'><b>change</b><br>Test class: Pear.news.MessageChange</td>
+<td></td>
+<td>23</td>
+<td>Pear.news.MessageChange@23223dd8</td></tr>
+<tr>
+<td title='Pear.news.MessageChangedelete.change()'><b>change</b><br>Test class: Pear.news.MessageChangedelete</td>
+<td></td>
+<td>17</td>
+<td>Pear.news.MessageChangedelete@4ec6a292</td></tr>
+<tr>
+<td title='Pear.news.MessgaeChangeread.change()'><b>change</b><br>Test class: Pear.news.MessgaeChangeread</td>
+<td></td>
+<td>17</td>
+<td>Pear.news.MessgaeChangeread@5a01ccaa</td></tr>
+<tr>
+<td title='Pear.news.PubChange.change()'><b>change</b><br>Test class: Pear.news.PubChange</td>
+<td></td>
+<td>27</td>
+<td>Pear.news.PubChange@19bb089b</td></tr>
+<tr>
+<td title='Pear.news.PubChangeoverdue.change()'><b>change</b><br>Test class: Pear.news.PubChangeoverdue</td>
+<td></td>
+<td>20</td>
+<td>Pear.news.PubChangeoverdue@4563e9ab</td></tr>
+<tr>
+<td title='Pear.news.PubChangepublished.change()'><b>change</b><br>Test class: Pear.news.PubChangepublished</td>
+<td></td>
+<td>20</td>
+<td>Pear.news.PubChangepublished@11531931</td></tr>
+<tr>
+<td title='Pear.news.MessageRemove.delete()'><b>delete</b><br>Test class: Pear.news.MessageRemove</td>
+<td></td>
+<td>13</td>
+<td>Pear.news.MessageRemove@ea4a92b</td></tr>
+<tr>
+<td title='Pear.news.PubRemove.delete()'><b>delete</b><br>Test class: Pear.news.PubRemove</td>
+<td></td>
+<td>9</td>
+<td>Pear.news.PubRemove@4cdbe50f</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.publish()'><b>publish</b><br>Test class: Pear.news.PublishMessage<br>Parameters: 1, fruit, apple苹果</td>
+<td></td>
+<td>7</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.publish()'><b>publish</b><br>Test class: Pear.news.PublishMessage<br>Parameters: 2, fruit, banana香蕉</td>
+<td></td>
+<td>7</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.publish()'><b>publish</b><br>Test class: Pear.news.PublishMessage<br>Parameters: 3, fruit, pear梨</td>
+<td></td>
+<td>7</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.publish()'><b>publish</b><br>Test class: Pear.news.PublishMessage<br>Parameters: 4, fruit, pineapple凤梨</td>
+<td></td>
+<td>7</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.publish()'><b>publish</b><br>Test class: Pear.news.PublishMessage<br>Parameters: 5, fruit, grape葡萄</td>
+<td></td>
+<td>7</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.publish()'><b>publish</b><br>Test class: Pear.news.PublishMessage<br>Parameters: 6, fruit, peach桃</td>
+<td></td>
+<td>7</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.publish()'><b>publish</b><br>Test class: Pear.news.PublishMessage<br>Parameters: 7, fruit, orange橘子</td>
+<td></td>
+<td>7</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.publish()'><b>publish</b><br>Test class: Pear.news.PublishMessage<br>Parameters: 8, fruit, strawberry草莓</td>
+<td></td>
+<td>7</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.publish()'><b>publish</b><br>Test class: Pear.news.PublishNews<br>Parameters: Do you eat breakfast?, I am a happy girl.</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PublishNews@45c8e616</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.publish()'><b>publish</b><br>Test class: Pear.news.PublishNews<br>Parameters: Do you eat lunch?, 我是一个快乐的女孩。</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PublishNews@45c8e616</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.publish()'><b>publish</b><br>Test class: Pear.news.PublishNews<br>Parameters: Do you eat dinner?, I am a happy girl.</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PublishNews@45c8e616</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.publish()'><b>publish</b><br>Test class: Pear.news.PublishNews<br>Parameters: Do you love me?, I am a happy girl.</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PublishNews@45c8e616</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.publish()'><b>publish</b><br>Test class: Pear.news.PublishNews<br>Parameters: Do you love her?, 我是一个快乐的女孩，嘻嘻嘻。</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PublishNews@45c8e616</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.publish()'><b>publish</b><br>Test class: Pear.news.PublishNews<br>Parameters: Do you love him?, I am a happy girl.</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PublishNews@45c8e616</td></tr>
+<tr>
+<td title='Pear.news.RewriteNews.rewrite()'><b>rewrite</b><br>Test class: Pear.news.RewriteNews</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.RewriteNews@7e0babb1</td></tr>
+<tr>
+<td title='Pear.news.MessageSearch.search()'><b>search</b><br>Test class: Pear.news.MessageSearch</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.MessageSearch@47f37ef1</td></tr>
+<tr>
+<td title='Pear.news.PubSearch.search()'><b>search</b><br>Test class: Pear.news.PubSearch</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.PubSearch@7cf10a6f</td></tr>
+</table><p>
+</body>
+</html>

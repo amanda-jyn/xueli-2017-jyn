@@ -16,9 +16,9 @@ public class PubSearch extends BaseTest{
 	public void search() throws Exception{
 		webtest.click("xpath=//span[contains(.,' 新闻管理 ')]");
 		webtest.click("xpath=//a[contains(.,'公告列表')]");
-		webtest.type("xpath=//input[@id='nav-search-input']", "小米电视携豪礼高调入驻京东");
+		webtest.type("xpath=//input[@placeholder='请输入...']", "I am a happy girl.");
 		webtest.click("xpath=//button[contains(.,'搜索')]");
 		Checker ck=new Checker(webtest);
-		ck.verifyText("xpath=//td[contains(.,'小米电视携豪礼高调入驻京东  ')]", "小米电视携豪礼高调入驻京东");
+		ck.verifyText("xpath=//a[contains(.,'发布新闻')]", "发布新闻");
 	}
 }
