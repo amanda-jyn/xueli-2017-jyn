@@ -10,7 +10,7 @@ public class PearLogin {
 	}
 	public void login() throws Exception{
 		webtest.open("http://localhost:8032/zl_shop/admin.php/Login/index.html");
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		webtest.type("xpath=//input[@name='name']","admin");
 		webtest.type("xpath=//input[@name='password']","admin");
 		webtest.click("xpath=//button[@type='submit']");

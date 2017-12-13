@@ -1,0 +1,761 @@
+<html>
+<head>
+<title>TestNG:  news</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>news</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/30</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 13 09:48:06 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>26 seconds (26849 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pear.news.MessageChange.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.MessageChange</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;AMANDA&apos;, ip: &apos;192.168.107.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.3W2COYDNV82N, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=2484, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: c6763f96-7baf-43e8-80c2-9bfcf2e14b12
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:482)
+	at com.webtest.core.BaseTest.doAfterMethod(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace145581669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace145581669'><pre>org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;AMANDA&apos;, ip: &apos;192.168.107.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.3W2COYDNV82N, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=2484, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: c6763f96-7baf-43e8-80c2-9bfcf2e14b12
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:482)
+	at com.webtest.core.BaseTest.doAfterMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>Pear.news.MessageChange@23223dd8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pear.news.MessageChangedelete.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.MessageChangedelete</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageChangedelete@4ec6a292</td></tr>
+<tr>
+<td title='Pear.news.MessageClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.MessageClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageClick@1b40d5f0</td></tr>
+<tr>
+<td title='Pear.news.MessageRemove.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.MessageRemove</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageRemove@ea4a92b</td></tr>
+<tr>
+<td title='Pear.news.MessageSearch.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.MessageSearch</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageSearch@47f37ef1</td></tr>
+<tr>
+<td title='Pear.news.MessgaeChangeread.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.MessgaeChangeread</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessgaeChangeread@5a01ccaa</td></tr>
+<tr>
+<td title='Pear.news.NewsClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.NewsClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.NewsClick@71c7db30</td></tr>
+<tr>
+<td title='Pear.news.PubChange.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.PubChange</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubChange@19bb089b</td></tr>
+<tr>
+<td title='Pear.news.PubChangeoverdue.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.PubChangeoverdue</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubChangeoverdue@4563e9ab</td></tr>
+<tr>
+<td title='Pear.news.PubChangepublished.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.PubChangepublished</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubChangepublished@11531931</td></tr>
+<tr>
+<td title='Pear.news.PubClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.PubClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubClick@5e025e70</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.PublishMessage</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.PublishNews</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PublishNews@45c8e616</td></tr>
+<tr>
+<td title='Pear.news.PubRemove.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.PubRemove</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubRemove@4cdbe50f</td></tr>
+<tr>
+<td title='Pear.news.PubSearch.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.PubSearch</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubSearch@7cf10a6f</td></tr>
+<tr>
+<td title='Pear.news.RewriteNews.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.news.RewriteNews</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.RewriteNews@7e0babb1</td></tr>
+<tr>
+<td title='Pear.news.MessageChangedelete.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.MessageChangedelete</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageChangedelete@4ec6a292</td></tr>
+<tr>
+<td title='Pear.news.MessageClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.MessageClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageClick@1b40d5f0</td></tr>
+<tr>
+<td title='Pear.news.MessageRemove.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.MessageRemove</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageRemove@ea4a92b</td></tr>
+<tr>
+<td title='Pear.news.MessageSearch.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.MessageSearch</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageSearch@47f37ef1</td></tr>
+<tr>
+<td title='Pear.news.MessgaeChangeread.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.MessgaeChangeread</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessgaeChangeread@5a01ccaa</td></tr>
+<tr>
+<td title='Pear.news.NewsClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.NewsClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.NewsClick@71c7db30</td></tr>
+<tr>
+<td title='Pear.news.PubChange.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.PubChange</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubChange@19bb089b</td></tr>
+<tr>
+<td title='Pear.news.PubChangeoverdue.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.PubChangeoverdue</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubChangeoverdue@4563e9ab</td></tr>
+<tr>
+<td title='Pear.news.PubChangepublished.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.PubChangepublished</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubChangepublished@11531931</td></tr>
+<tr>
+<td title='Pear.news.PubClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.PubClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubClick@5e025e70</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.PublishMessage</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.PublishNews</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PublishNews@45c8e616</td></tr>
+<tr>
+<td title='Pear.news.PubRemove.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.PubRemove</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubRemove@4cdbe50f</td></tr>
+<tr>
+<td title='Pear.news.PubSearch.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.PubSearch</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubSearch@7cf10a6f</td></tr>
+<tr>
+<td title='Pear.news.RewriteNews.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.news.RewriteNews</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.RewriteNews@7e0babb1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pear.news.MessageChange.Login()'><b>Login</b><br>Test class: Pear.news.MessageChange</td>
+<td></td>
+<td>10</td>
+<td>Pear.news.MessageChange@23223dd8</td></tr>
+<tr>
+<td title='Pear.news.MessageChange.change()'><b>change</b><br>Test class: Pear.news.MessageChange</td>
+<td></td>
+<td>7</td>
+<td>Pear.news.MessageChange@23223dd8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pear.news.MessageClick.Click()'><b>Click</b><br>Test class: Pear.news.MessageClick</td>
+<td><div><pre>java.lang.Throwable: Method MessageClick.Click()[pri:0, instance:Pear.news.MessageClick@1b40d5f0] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace176683244", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace176683244'><pre>java.lang.Throwable: Method MessageClick.Click()[pri:0, instance:Pear.news.MessageClick@1b40d5f0] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.NewsClick.Click()'><b>Click</b><br>Test class: Pear.news.NewsClick</td>
+<td><div><pre>java.lang.Throwable: Method NewsClick.Click()[pri:0, instance:Pear.news.NewsClick@71c7db30] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1398241764", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1398241764'><pre>java.lang.Throwable: Method NewsClick.Click()[pri:0, instance:Pear.news.NewsClick@71c7db30] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.PubClick.Click()'><b>Click</b><br>Test class: Pear.news.PubClick</td>
+<td><div><pre>java.lang.Throwable: Method PubClick.Click()[pri:0, instance:Pear.news.PubClick@5e025e70] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace564272228", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace564272228'><pre>java.lang.Throwable: Method PubClick.Click()[pri:0, instance:Pear.news.PubClick@5e025e70] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.MessageChangedelete.Login()'><b>Login</b><br>Test class: Pear.news.MessageChangedelete</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageChangedelete@4ec6a292</td></tr>
+<tr>
+<td title='Pear.news.MessageClick.Login()'><b>Login</b><br>Test class: Pear.news.MessageClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageClick@1b40d5f0</td></tr>
+<tr>
+<td title='Pear.news.MessageRemove.Login()'><b>Login</b><br>Test class: Pear.news.MessageRemove</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageRemove@ea4a92b</td></tr>
+<tr>
+<td title='Pear.news.MessageSearch.Login()'><b>Login</b><br>Test class: Pear.news.MessageSearch</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessageSearch@47f37ef1</td></tr>
+<tr>
+<td title='Pear.news.MessgaeChangeread.Login()'><b>Login</b><br>Test class: Pear.news.MessgaeChangeread</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.MessgaeChangeread@5a01ccaa</td></tr>
+<tr>
+<td title='Pear.news.NewsClick.Login()'><b>Login</b><br>Test class: Pear.news.NewsClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.NewsClick@71c7db30</td></tr>
+<tr>
+<td title='Pear.news.PubChange.Login()'><b>Login</b><br>Test class: Pear.news.PubChange</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubChange@19bb089b</td></tr>
+<tr>
+<td title='Pear.news.PubChangeoverdue.Login()'><b>Login</b><br>Test class: Pear.news.PubChangeoverdue</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubChangeoverdue@4563e9ab</td></tr>
+<tr>
+<td title='Pear.news.PubChangepublished.Login()'><b>Login</b><br>Test class: Pear.news.PubChangepublished</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubChangepublished@11531931</td></tr>
+<tr>
+<td title='Pear.news.PubClick.Login()'><b>Login</b><br>Test class: Pear.news.PubClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubClick@5e025e70</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.Login()'><b>Login</b><br>Test class: Pear.news.PublishMessage</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PublishMessage@1fbc7afb</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.Login()'><b>Login</b><br>Test class: Pear.news.PublishNews</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PublishNews@45c8e616</td></tr>
+<tr>
+<td title='Pear.news.PubRemove.Login()'><b>Login</b><br>Test class: Pear.news.PubRemove</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubRemove@4cdbe50f</td></tr>
+<tr>
+<td title='Pear.news.PubSearch.Login()'><b>Login</b><br>Test class: Pear.news.PubSearch</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.PubSearch@7cf10a6f</td></tr>
+<tr>
+<td title='Pear.news.RewriteNews.Login()'><b>Login</b><br>Test class: Pear.news.RewriteNews</td>
+<td></td>
+<td>0</td>
+<td>Pear.news.RewriteNews@7e0babb1</td></tr>
+<tr>
+<td title='Pear.news.MessageChangedelete.change()'><b>change</b><br>Test class: Pear.news.MessageChangedelete</td>
+<td><div><pre>java.lang.Throwable: Method MessageChangedelete.change()[pri:0, instance:Pear.news.MessageChangedelete@4ec6a292] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace198112003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace198112003'><pre>java.lang.Throwable: Method MessageChangedelete.change()[pri:0, instance:Pear.news.MessageChangedelete@4ec6a292] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.MessgaeChangeread.change()'><b>change</b><br>Test class: Pear.news.MessgaeChangeread</td>
+<td><div><pre>java.lang.Throwable: Method MessgaeChangeread.change()[pri:0, instance:Pear.news.MessgaeChangeread@5a01ccaa] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace461129530", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace461129530'><pre>java.lang.Throwable: Method MessgaeChangeread.change()[pri:0, instance:Pear.news.MessgaeChangeread@5a01ccaa] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.PubChange.change()'><b>change</b><br>Test class: Pear.news.PubChange</td>
+<td><div><pre>java.lang.Throwable: Method PubChange.change()[pri:0, instance:Pear.news.PubChange@19bb089b] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace524223214", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace524223214'><pre>java.lang.Throwable: Method PubChange.change()[pri:0, instance:Pear.news.PubChange@19bb089b] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.PubChangeoverdue.change()'><b>change</b><br>Test class: Pear.news.PubChangeoverdue</td>
+<td><div><pre>java.lang.Throwable: Method PubChangeoverdue.change()[pri:0, instance:Pear.news.PubChangeoverdue@4563e9ab] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2073299099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2073299099'><pre>java.lang.Throwable: Method PubChangeoverdue.change()[pri:0, instance:Pear.news.PubChangeoverdue@4563e9ab] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.PubChangepublished.change()'><b>change</b><br>Test class: Pear.news.PubChangepublished</td>
+<td><div><pre>java.lang.Throwable: Method PubChangepublished.change()[pri:0, instance:Pear.news.PubChangepublished@11531931] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1444440224", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1444440224'><pre>java.lang.Throwable: Method PubChangepublished.change()[pri:0, instance:Pear.news.PubChangepublished@11531931] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.MessageRemove.delete()'><b>delete</b><br>Test class: Pear.news.MessageRemove</td>
+<td><div><pre>java.lang.Throwable: Method MessageRemove.delete()[pri:0, instance:Pear.news.MessageRemove@ea4a92b] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace48361312", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace48361312'><pre>java.lang.Throwable: Method MessageRemove.delete()[pri:0, instance:Pear.news.MessageRemove@ea4a92b] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.PubRemove.delete()'><b>delete</b><br>Test class: Pear.news.PubRemove</td>
+<td><div><pre>java.lang.Throwable: Method PubRemove.delete()[pri:0, instance:Pear.news.PubRemove@4cdbe50f] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace230526532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace230526532'><pre>java.lang.Throwable: Method PubRemove.delete()[pri:0, instance:Pear.news.PubRemove@4cdbe50f] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.PublishMessage.publish()'><b>publish</b><br>Test class: Pear.news.PublishMessage</td>
+<td><div><pre>java.lang.Throwable: Method PublishMessage.publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@1fbc7afb] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1681303515", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1681303515'><pre>java.lang.Throwable: Method PublishMessage.publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@1fbc7afb] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.PublishNews.publish()'><b>publish</b><br>Test class: Pear.news.PublishNews</td>
+<td><div><pre>java.lang.Throwable: Method PublishNews.publish(java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishNews@45c8e616] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace385739920", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace385739920'><pre>java.lang.Throwable: Method PublishNews.publish(java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishNews@45c8e616] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.RewriteNews.rewrite()'><b>rewrite</b><br>Test class: Pear.news.RewriteNews</td>
+<td><div><pre>java.lang.Throwable: Method RewriteNews.rewrite()[pri:0, instance:Pear.news.RewriteNews@7e0babb1] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1034094674", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1034094674'><pre>java.lang.Throwable: Method RewriteNews.rewrite()[pri:0, instance:Pear.news.RewriteNews@7e0babb1] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.MessageSearch.search()'><b>search</b><br>Test class: Pear.news.MessageSearch</td>
+<td><div><pre>java.lang.Throwable: Method MessageSearch.search()[pri:0, instance:Pear.news.MessageSearch@47f37ef1] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1025001676", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1025001676'><pre>java.lang.Throwable: Method MessageSearch.search()[pri:0, instance:Pear.news.MessageSearch@47f37ef1] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.news.PubSearch.search()'><b>search</b><br>Test class: Pear.news.PubSearch</td>
+<td><div><pre>java.lang.Throwable: Method PubSearch.search()[pri:0, instance:Pear.news.PubSearch@7cf10a6f] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2035381640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2035381640'><pre>java.lang.Throwable: Method PubSearch.search()[pri:0, instance:Pear.news.PubSearch@7cf10a6f] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>
