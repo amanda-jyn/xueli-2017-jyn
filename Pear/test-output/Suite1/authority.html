@@ -55,11 +55,19 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>authority</h2><table border='1' align="center">
 <tr>
+<<<<<<< HEAD
 <td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
 </tr><tr>
 <td>Started on:</td><td>Thu Dec 14 15:22:43 CST 2017</td>
 </tr>
 <tr><td>Total time:</td><td>258 seconds (258468 ms)</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>0/0/14</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 13 09:49:03 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>11 seconds (11339 ms)</td>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,14 +75,15 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='Pear.authority.AddAuthorityClick.Click()'><b>Click</b><br>Test class: Pear.authority.AddAuthorityClick</td>
 <td></td>
 <td>6</td>
@@ -159,6 +168,402 @@ function toggleAllBoxes() {
 <td></td>
 <td>9</td>
 <td>Pear.authority.RemoveMember@3796751b</td></tr>
+=======
+<td title='Pear.authority.AddAuthority.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.authority.AddAuthority</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;AMANDA&apos;, ip: &apos;192.168.107.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445159 - &lt;no info&gt;
+   3:           0x44c838 - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7ffe06442774 - BaseThreadInitThunk
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)
+	at com.webtest.core.BaseTest.newWebDriver(Unknown Source)
+	at com.webtest.core.BaseTest.doBeforeMethod(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace58488213", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace58488213'><pre>org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;AMANDA&apos;, ip: &apos;192.168.107.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - &lt;no info&gt;
+   1:           0x482933 - &lt;no info&gt;
+   2:           0x445159 - &lt;no info&gt;
+   3:           0x44c838 - &lt;no info&gt;
+   4:           0x43026a - &lt;no info&gt;
+   5:           0x40ba4e - &lt;no info&gt;
+   6:           0x4119b9 - &lt;no info&gt;
+   7:           0x6d2c89 - &lt;no info&gt;
+   8:           0x426006 - &lt;no info&gt;
+   9:           0x6cd490 - &lt;no info&gt;
+  10:     0x7ffe06442774 - BaseThreadInitThunk
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:140)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:98)
+	at com.webtest.core.BaseTest.newWebDriver(Unknown Source)
+	at com.webtest.core.BaseTest.doBeforeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>Pear.authority.AddAuthority@17f6480</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pear.authority.AddAuthorityClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.authority.AddAuthorityClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AddAuthorityClick@2812cbfa</td></tr>
+<tr>
+<td title='Pear.authority.AuthorityClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.authority.AuthorityClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AuthorityClick@2acf57e3</td></tr>
+<tr>
+<td title='Pear.authority.AuthorityListClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.authority.AuthorityListClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AuthorityListClick@506e6d5e</td></tr>
+<tr>
+<td title='Pear.authority.DetailsClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.authority.DetailsClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.DetailsClick@96532d6</td></tr>
+<tr>
+<td title='Pear.authority.RemoveMember.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.authority.RemoveMember</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.RemoveMember@3796751b</td></tr>
+<tr>
+<td title='Pear.authority.ViewAuthorityClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.authority.ViewAuthorityClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.ViewAuthorityClick@4411d970</td></tr>
+<tr>
+<td title='Pear.authority.AddAuthority.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.authority.AddAuthority</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AddAuthority@17f6480</td></tr>
+<tr>
+<td title='Pear.authority.AddAuthorityClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.authority.AddAuthorityClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AddAuthorityClick@2812cbfa</td></tr>
+<tr>
+<td title='Pear.authority.AuthorityClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.authority.AuthorityClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AuthorityClick@2acf57e3</td></tr>
+<tr>
+<td title='Pear.authority.AuthorityListClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.authority.AuthorityListClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AuthorityListClick@506e6d5e</td></tr>
+<tr>
+<td title='Pear.authority.DetailsClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.authority.DetailsClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.DetailsClick@96532d6</td></tr>
+<tr>
+<td title='Pear.authority.RemoveMember.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.authority.RemoveMember</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.RemoveMember@3796751b</td></tr>
+<tr>
+<td title='Pear.authority.ViewAuthorityClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.authority.ViewAuthorityClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.ViewAuthorityClick@4411d970</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pear.authority.AddAuthorityClick.Click()'><b>Click</b><br>Test class: Pear.authority.AddAuthorityClick</td>
+<td><div><pre>java.lang.Throwable: Method AddAuthorityClick.Click()[pri:0, instance:Pear.authority.AddAuthorityClick@2812cbfa] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2103763750", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2103763750'><pre>java.lang.Throwable: Method AddAuthorityClick.Click()[pri:0, instance:Pear.authority.AddAuthorityClick@2812cbfa] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.authority.AuthorityClick.Click()'><b>Click</b><br>Test class: Pear.authority.AuthorityClick</td>
+<td><div><pre>java.lang.Throwable: Method AuthorityClick.Click()[pri:0, instance:Pear.authority.AuthorityClick@2acf57e3] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1804441305", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1804441305'><pre>java.lang.Throwable: Method AuthorityClick.Click()[pri:0, instance:Pear.authority.AuthorityClick@2acf57e3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.authority.AuthorityListClick.Click()'><b>Click</b><br>Test class: Pear.authority.AuthorityListClick</td>
+<td><div><pre>java.lang.Throwable: Method AuthorityListClick.Click()[pri:0, instance:Pear.authority.AuthorityListClick@506e6d5e] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1238616099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1238616099'><pre>java.lang.Throwable: Method AuthorityListClick.Click()[pri:0, instance:Pear.authority.AuthorityListClick@506e6d5e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.authority.DetailsClick.Click()'><b>Click</b><br>Test class: Pear.authority.DetailsClick</td>
+<td><div><pre>java.lang.Throwable: Method DetailsClick.Click()[pri:0, instance:Pear.authority.DetailsClick@96532d6] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace107994825", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace107994825'><pre>java.lang.Throwable: Method DetailsClick.Click()[pri:0, instance:Pear.authority.DetailsClick@96532d6] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.authority.ViewAuthorityClick.Click()'><b>Click</b><br>Test class: Pear.authority.ViewAuthorityClick</td>
+<td><div><pre>java.lang.Throwable: Method ViewAuthorityClick.Click()[pri:0, instance:Pear.authority.ViewAuthorityClick@4411d970] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace267814113", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace267814113'><pre>java.lang.Throwable: Method ViewAuthorityClick.Click()[pri:0, instance:Pear.authority.ViewAuthorityClick@4411d970] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.authority.AddAuthority.Login()'><b>Login</b><br>Test class: Pear.authority.AddAuthority</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AddAuthority@17f6480</td></tr>
+<tr>
+<td title='Pear.authority.AddAuthorityClick.Login()'><b>Login</b><br>Test class: Pear.authority.AddAuthorityClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AddAuthorityClick@2812cbfa</td></tr>
+<tr>
+<td title='Pear.authority.AuthorityClick.Login()'><b>Login</b><br>Test class: Pear.authority.AuthorityClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AuthorityClick@2acf57e3</td></tr>
+<tr>
+<td title='Pear.authority.AuthorityListClick.Login()'><b>Login</b><br>Test class: Pear.authority.AuthorityListClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.AuthorityListClick@506e6d5e</td></tr>
+<tr>
+<td title='Pear.authority.DetailsClick.Login()'><b>Login</b><br>Test class: Pear.authority.DetailsClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.DetailsClick@96532d6</td></tr>
+<tr>
+<td title='Pear.authority.RemoveMember.Login()'><b>Login</b><br>Test class: Pear.authority.RemoveMember</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.RemoveMember@3796751b</td></tr>
+<tr>
+<td title='Pear.authority.ViewAuthorityClick.Login()'><b>Login</b><br>Test class: Pear.authority.ViewAuthorityClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.authority.ViewAuthorityClick@4411d970</td></tr>
+<tr>
+<td title='Pear.authority.AddAuthority.add()'><b>add</b><br>Test class: Pear.authority.AddAuthority</td>
+<td><div><pre>java.lang.Throwable: Method AddAuthority.add(java.lang.String)[pri:0, instance:Pear.authority.AddAuthority@17f6480] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace295304806", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace295304806'><pre>java.lang.Throwable: Method AddAuthority.add(java.lang.String)[pri:0, instance:Pear.authority.AddAuthority@17f6480] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.authority.RemoveMember.remove()'><b>remove</b><br>Test class: Pear.authority.RemoveMember</td>
+<td><div><pre>java.lang.Throwable: Method RemoveMember.remove()[pri:0, instance:Pear.authority.RemoveMember@3796751b] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1481594086", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1481594086'><pre>java.lang.Throwable: Method RemoveMember.remove()[pri:0, instance:Pear.authority.RemoveMember@3796751b] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 </table><p>
 </body>
 </html>

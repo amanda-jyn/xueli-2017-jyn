@@ -5,6 +5,11 @@
 <listeners>
 	<listener class-name="com.webtest.testlistener.TestListener"></listener>
 </listeners>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 	<test name="login">
 		<packages>
 			<package name="Pear.login"></package>
@@ -30,9 +35,12 @@
 			<package name="Pear.link"></package>
 		</packages>
 	</test>	
+<<<<<<< HEAD
 	<test name="authority">
 		<packages>
 			<package name="Pear.authority"></package>
 		</packages>
 	</test>
+=======
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 </suite>

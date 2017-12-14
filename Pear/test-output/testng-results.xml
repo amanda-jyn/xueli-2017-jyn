@@ -1,17 +1,2621 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="89" failed="2" total="103" passed="12">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite name="Suite" duration-ms="22591" started-at="2017-12-14T07:27:05Z" finished-at="2017-12-14T07:27:28Z">
     <groups>
     </groups>
     <test name="Test" duration-ms="22591" started-at="2017-12-14T07:27:05Z" finished-at="2017-12-14T07:27:28Z">
       <class name="com.webtest.mail.SendMail">
         <test-method status="PASS" signature="send()[pri:0, instance:com.webtest.mail.SendMail@224aed64]" name="send" duration-ms="22559" started-at="2017-12-14T15:27:05Z" finished-at="2017-12-14T15:27:27Z">
+=======
+  <suite name="Suite1" duration-ms="134126" started-at="2017-12-13T01:47:00Z" finished-at="2017-12-13T01:49:14Z">
+    <groups>
+    </groups>
+    <test name="login" duration-ms="48992" started-at="2017-12-13T01:47:00Z" finished-at="2017-12-13T01:47:49Z">
+      <class name="Pear.login.ResetInfo">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.login.ResetInfo@13b6d03]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:47:49Z" finished-at="2017-12-13T09:47:49Z">
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- send -->
-      </class> <!-- com.webtest.mail.SendMail -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.login.ResetInfo@13b6d03]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:47:49Z" finished-at="2017-12-13T09:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="login()[pri:0, instance:Pear.login.ResetInfo@13b6d03]" name="login" duration-ms="0" started-at="2017-12-13T09:47:49Z" finished-at="2017-12-13T09:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="SKIP" signature="reset()[pri:0, instance:Pear.login.ResetInfo@13b6d03]" name="reset" duration-ms="0" started-at="2017-12-13T09:47:49Z" depends-on-methods="Pear.login.ResetInfo.login" finished-at="2017-12-13T09:47:49Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ResetInfo.reset()[pri:0, instance:Pear.login.ResetInfo@13b6d03] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ResetInfo.reset()[pri:0, instance:Pear.login.ResetInfo@13b6d03] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reset -->
+      </class> <!-- Pear.login.ResetInfo -->
+      <class name="Pear.login.PearLogout">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.login.PearLogout@75412c2f]" name="doBeforeMethod" is-config="true" duration-ms="8614" started-at="2017-12-13T09:47:00Z" finished-at="2017-12-13T09:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Pear.login.PearLogout@75412c2f]" name="login" duration-ms="10815" started-at="2017-12-13T09:47:09Z" finished-at="2017-12-13T09:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Pear.login.PearLogout@75412c2f]" name="logout" duration-ms="6930" started-at="2017-12-13T09:47:20Z" depends-on-methods="Pear.login.PearLogout.login" finished-at="2017-12-13T09:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="doAfterMethod()[pri:0, instance:Pear.login.PearLogout@75412c2f]" name="doAfterMethod" is-config="true" duration-ms="4228" started-at="2017-12-13T09:47:27Z" finished-at="2017-12-13T09:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.login.PearLogout -->
+      <class name="Pear.login.PersonalCenter">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.login.PersonalCenter@282ba1e]" name="doBeforeMethod" is-config="true" duration-ms="7471" started-at="2017-12-13T09:47:31Z" finished-at="2017-12-13T09:47:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="FAIL" signature="login()[pri:0, instance:Pear.login.PersonalCenter@282ba1e]" name="login" duration-ms="10708" started-at="2017-12-13T09:47:38Z" finished-at="2017-12-13T09:47:49Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.webtest.core.WebDriverEngine.getText(Unknown Source)
+	at com.webtest.core.Checker.verifyText(Unknown Source)
+	at Pear.login.PearLogin.login(Unknown Source)
+	at Pear.login.PersonalCenter.login(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="FAIL" signature="doAfterMethod()[pri:0, instance:Pear.login.PersonalCenter@282ba1e]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:47:49Z" finished-at="2017-12-13T09:47:49Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.4GvqjcFp0Yn3, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=22344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 558c84d8-f4d1-46e6-8da7-105b4b0fd4f2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.4GvqjcFp0Yn3, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=22344, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 558c84d8-f4d1-46e6-8da7-105b4b0fd4f2
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:482)
+	at com.webtest.core.BaseTest.doAfterMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="writeinfo()[pri:0, instance:Pear.login.PersonalCenter@282ba1e]" name="writeinfo" duration-ms="0" started-at="2017-12-13T09:47:49Z" depends-on-methods="Pear.login.PersonalCenter.login" finished-at="2017-12-13T09:47:49Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PersonalCenter.writeinfo()[pri:0, instance:Pear.login.PersonalCenter@282ba1e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PersonalCenter.writeinfo()[pri:0, instance:Pear.login.PersonalCenter@282ba1e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeinfo -->
+      </class> <!-- Pear.login.PersonalCenter -->
+      <class name="Pear.login.TestLogin">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.login.TestLogin@f5f2bb7]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:47:49Z" finished-at="2017-12-13T09:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="testlogin()[pri:0, instance:Pear.login.TestLogin@f5f2bb7]" name="testlogin" duration-ms="0" started-at="2017-12-13T09:47:49Z" finished-at="2017-12-13T09:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlogin -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.login.TestLogin@f5f2bb7]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:47:49Z" finished-at="2017-12-13T09:47:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+      </class> <!-- Pear.login.TestLogin -->
+    </test> <!-- login -->
+    <test name="talk" duration-ms="16639" started-at="2017-12-13T01:47:49Z" finished-at="2017-12-13T01:48:06Z">
+      <class name="Pear.talk.TalkListClick">
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.talk.TalkListClick@2aafb23c]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.talk.TalkListClick@2aafb23c]" name="Click" duration-ms="0" started-at="2017-12-13T09:48:06Z" depends-on-methods="Pear.talk.TalkListClick.Login" finished-at="2017-12-13T09:48:06Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TalkListClick.Click()[pri:0, instance:Pear.talk.TalkListClick@2aafb23c] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TalkListClick.Click()[pri:0, instance:Pear.talk.TalkListClick@2aafb23c] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.talk.TalkListClick@2aafb23c]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.talk.TalkListClick@2aafb23c]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Pear.talk.TalkListClick -->
+      <class name="Pear.talk.TalkListSelect">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.talk.TalkListSelect@2b80d80f]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="search()[pri:0, instance:Pear.talk.TalkListSelect@2b80d80f]" name="search" duration-ms="0" started-at="2017-12-13T09:48:06Z" depends-on-methods="Pear.talk.TalkListSelect.Login" finished-at="2017-12-13T09:48:06Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TalkListSelect.search()[pri:0, instance:Pear.talk.TalkListSelect@2b80d80f] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TalkListSelect.search()[pri:0, instance:Pear.talk.TalkListSelect@2b80d80f] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.talk.TalkListSelect@2b80d80f]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.talk.TalkListSelect@2b80d80f]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.talk.TalkListSelect -->
+      <class name="Pear.talk.RepoListSelect">
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.talk.RepoListSelect@6fffcba5]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="search()[pri:0, instance:Pear.talk.RepoListSelect@6fffcba5]" name="search" duration-ms="0" started-at="2017-12-13T09:48:06Z" depends-on-methods="Pear.talk.RepoListSelect.Login" finished-at="2017-12-13T09:48:06Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method RepoListSelect.search()[pri:0, instance:Pear.talk.RepoListSelect@6fffcba5] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method RepoListSelect.search()[pri:0, instance:Pear.talk.RepoListSelect@6fffcba5] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.talk.RepoListSelect@6fffcba5]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.talk.RepoListSelect@6fffcba5]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.talk.RepoListSelect -->
+      <class name="Pear.talk.RepoListClick">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.talk.RepoListClick@1ae369b7]" name="doBeforeMethod" is-config="true" duration-ms="8277" started-at="2017-12-13T09:47:49Z" finished-at="2017-12-13T09:47:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="FAIL" signature="Login()[pri:0, instance:Pear.talk.RepoListClick@1ae369b7]" name="Login" duration-ms="8109" started-at="2017-12-13T09:47:58Z" finished-at="2017-12-13T09:48:06Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.Jcoxb5pf5Pho, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=20560, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 9b353e74-d1c0-4132-9d94-a72a32dd4573]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.Jcoxb5pf5Pho, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=20560, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 9b353e74-d1c0-4132-9d94-a72a32dd4573
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.webtest.core.WebDriverEngine.click(Unknown Source)
+	at Pear.login.PearLogin.login(Unknown Source)
+	at Pear.talk.RepoListClick.Login(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="FAIL" signature="doAfterMethod()[pri:0, instance:Pear.talk.RepoListClick@1ae369b7]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.Jcoxb5pf5Pho, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=20560, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 9b353e74-d1c0-4132-9d94-a72a32dd4573]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.Jcoxb5pf5Pho, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=20560, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 9b353e74-d1c0-4132-9d94-a72a32dd4573
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:482)
+	at com.webtest.core.BaseTest.doAfterMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.talk.RepoListClick@1ae369b7]" name="Click" duration-ms="0" started-at="2017-12-13T09:48:06Z" depends-on-methods="Pear.talk.RepoListClick.Login" finished-at="2017-12-13T09:48:06Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method RepoListClick.Click()[pri:0, instance:Pear.talk.RepoListClick@1ae369b7] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method RepoListClick.Click()[pri:0, instance:Pear.talk.RepoListClick@1ae369b7] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+      </class> <!-- Pear.talk.RepoListClick -->
+      <class name="Pear.talk.TalkClick">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.talk.TalkClick@34340fab]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.talk.TalkClick@34340fab]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.talk.TalkClick@34340fab]" name="Click" duration-ms="0" started-at="2017-12-13T09:48:06Z" depends-on-methods="Pear.talk.TalkClick.Login" finished-at="2017-12-13T09:48:06Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method TalkClick.Click()[pri:0, instance:Pear.talk.TalkClick@34340fab] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method TalkClick.Click()[pri:0, instance:Pear.talk.TalkClick@34340fab] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.talk.TalkClick@34340fab]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+      </class> <!-- Pear.talk.TalkClick -->
+    </test> <!-- talk -->
+    <test name="news" duration-ms="26849" started-at="2017-12-13T01:48:06Z" finished-at="2017-12-13T01:48:33Z">
+      <class name="Pear.news.PubChangeoverdue">
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.PubChangeoverdue@4563e9ab]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="change()[pri:0, instance:Pear.news.PubChangeoverdue@4563e9ab]" name="change" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.PubChangeoverdue.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PubChangeoverdue.change()[pri:0, instance:Pear.news.PubChangeoverdue@4563e9ab] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PubChangeoverdue.change()[pri:0, instance:Pear.news.PubChangeoverdue@4563e9ab] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.PubChangeoverdue@4563e9ab]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.PubChangeoverdue@4563e9ab]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Pear.news.PubChangeoverdue -->
+      <class name="Pear.news.NewsClick">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.NewsClick@71c7db30]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.news.NewsClick@71c7db30]" name="Click" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.NewsClick.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method NewsClick.Click()[pri:0, instance:Pear.news.NewsClick@71c7db30] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method NewsClick.Click()[pri:0, instance:Pear.news.NewsClick@71c7db30] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.NewsClick@71c7db30]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.NewsClick@71c7db30]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.news.NewsClick -->
+      <class name="Pear.news.MessageRemove">
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.MessageRemove@ea4a92b]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.MessageRemove@ea4a92b]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="delete()[pri:0, instance:Pear.news.MessageRemove@ea4a92b]" name="delete" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.MessageRemove.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method MessageRemove.delete()[pri:0, instance:Pear.news.MessageRemove@ea4a92b] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method MessageRemove.delete()[pri:0, instance:Pear.news.MessageRemove@ea4a92b] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.MessageRemove@ea4a92b]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.news.MessageRemove -->
+      <class name="Pear.news.MessageClick">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.MessageClick@1b40d5f0]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.MessageClick@1b40d5f0]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.news.MessageClick@1b40d5f0]" name="Click" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.MessageClick.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method MessageClick.Click()[pri:0, instance:Pear.news.MessageClick@1b40d5f0] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method MessageClick.Click()[pri:0, instance:Pear.news.MessageClick@1b40d5f0] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.MessageClick@1b40d5f0]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.news.MessageClick -->
+      <class name="Pear.news.MessageChange">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.news.MessageChange@23223dd8]" name="doBeforeMethod" is-config="true" duration-ms="8338" started-at="2017-12-13T09:48:06Z" finished-at="2017-12-13T09:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Pear.news.MessageChange@23223dd8]" name="Login" duration-ms="10996" started-at="2017-12-13T09:48:14Z" finished-at="2017-12-13T09:48:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="change()[pri:0, instance:Pear.news.MessageChange@23223dd8]" name="change" duration-ms="7260" started-at="2017-12-13T09:48:25Z" depends-on-methods="Pear.news.MessageChange.Login" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change -->
+        <test-method status="FAIL" signature="doAfterMethod()[pri:0, instance:Pear.news.MessageChange@23223dd8]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.3W2COYDNV82N, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=2484, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: c6763f96-7baf-43e8-80c2-9bfcf2e14b12]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.3W2COYDNV82N, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=2484, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: c6763f96-7baf-43e8-80c2-9bfcf2e14b12
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:482)
+	at com.webtest.core.BaseTest.doAfterMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.news.MessageChange -->
+      <class name="Pear.news.PubRemove">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.PubRemove@4cdbe50f]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.PubRemove@4cdbe50f]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.PubRemove@4cdbe50f]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="delete()[pri:0, instance:Pear.news.PubRemove@4cdbe50f]" name="delete" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.PubRemove.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PubRemove.delete()[pri:0, instance:Pear.news.PubRemove@4cdbe50f] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PubRemove.delete()[pri:0, instance:Pear.news.PubRemove@4cdbe50f] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- Pear.news.PubRemove -->
+      <class name="Pear.news.PubSearch">
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.PubSearch@7cf10a6f]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="search()[pri:0, instance:Pear.news.PubSearch@7cf10a6f]" name="search" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.PubSearch.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PubSearch.search()[pri:0, instance:Pear.news.PubSearch@7cf10a6f] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PubSearch.search()[pri:0, instance:Pear.news.PubSearch@7cf10a6f] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.PubSearch@7cf10a6f]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.PubSearch@7cf10a6f]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.news.PubSearch -->
+      <class name="Pear.news.PublishMessage">
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.PublishMessage@1fbc7afb]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.PublishMessage@1fbc7afb]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.PublishMessage@1fbc7afb]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@1fbc7afb]" name="publish" duration-ms="0" started-at="2017-12-13T09:48:33Z" data-provider="s3" depends-on-methods="Pear.news.PublishMessage.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PublishMessage.publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@1fbc7afb] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PublishMessage.publish(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishMessage@1fbc7afb] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publish -->
+      </class> <!-- Pear.news.PublishMessage -->
+      <class name="Pear.news.MessgaeChangeread">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.MessgaeChangeread@5a01ccaa]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.MessgaeChangeread@5a01ccaa]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.MessgaeChangeread@5a01ccaa]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="change()[pri:0, instance:Pear.news.MessgaeChangeread@5a01ccaa]" name="change" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.MessgaeChangeread.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method MessgaeChangeread.change()[pri:0, instance:Pear.news.MessgaeChangeread@5a01ccaa] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method MessgaeChangeread.change()[pri:0, instance:Pear.news.MessgaeChangeread@5a01ccaa] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change -->
+      </class> <!-- Pear.news.MessgaeChangeread -->
+      <class name="Pear.news.PubChange">
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.PubChange@19bb089b]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="change()[pri:0, instance:Pear.news.PubChange@19bb089b]" name="change" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.PubChange.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PubChange.change()[pri:0, instance:Pear.news.PubChange@19bb089b] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PubChange.change()[pri:0, instance:Pear.news.PubChange@19bb089b] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.PubChange@19bb089b]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.PubChange@19bb089b]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.news.PubChange -->
+      <class name="Pear.news.MessageSearch">
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.MessageSearch@47f37ef1]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.MessageSearch@47f37ef1]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.MessageSearch@47f37ef1]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="search()[pri:0, instance:Pear.news.MessageSearch@47f37ef1]" name="search" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.MessageSearch.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method MessageSearch.search()[pri:0, instance:Pear.news.MessageSearch@47f37ef1] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method MessageSearch.search()[pri:0, instance:Pear.news.MessageSearch@47f37ef1] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- Pear.news.MessageSearch -->
+      <class name="Pear.news.PubChangepublished">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.PubChangepublished@11531931]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="change()[pri:0, instance:Pear.news.PubChangepublished@11531931]" name="change" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.PubChangepublished.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PubChangepublished.change()[pri:0, instance:Pear.news.PubChangepublished@11531931] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PubChangepublished.change()[pri:0, instance:Pear.news.PubChangepublished@11531931] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.PubChangepublished@11531931]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.PubChangepublished@11531931]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+      </class> <!-- Pear.news.PubChangepublished -->
+      <class name="Pear.news.MessageChangedelete">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.MessageChangedelete@4ec6a292]" name="Login" duration-ms="1" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.MessageChangedelete@4ec6a292]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="change()[pri:0, instance:Pear.news.MessageChangedelete@4ec6a292]" name="change" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.MessageChangedelete.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method MessageChangedelete.change()[pri:0, instance:Pear.news.MessageChangedelete@4ec6a292] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method MessageChangedelete.change()[pri:0, instance:Pear.news.MessageChangedelete@4ec6a292] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.MessageChangedelete@4ec6a292]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.news.MessageChangedelete -->
+      <class name="Pear.news.RewriteNews">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.RewriteNews@7e0babb1]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.RewriteNews@7e0babb1]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.RewriteNews@7e0babb1]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="rewrite()[pri:0, instance:Pear.news.RewriteNews@7e0babb1]" name="rewrite" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.RewriteNews.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method RewriteNews.rewrite()[pri:0, instance:Pear.news.RewriteNews@7e0babb1] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method RewriteNews.rewrite()[pri:0, instance:Pear.news.RewriteNews@7e0babb1] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rewrite -->
+      </class> <!-- Pear.news.RewriteNews -->
+      <class name="Pear.news.PublishNews">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.PublishNews@45c8e616]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.PublishNews@45c8e616]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.PublishNews@45c8e616]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="publish(java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishNews@45c8e616]" name="publish" duration-ms="0" started-at="2017-12-13T09:48:33Z" data-provider="s1" depends-on-methods="Pear.news.PublishNews.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PublishNews.publish(java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishNews@45c8e616] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PublishNews.publish(java.lang.String, java.lang.String)[pri:0, instance:Pear.news.PublishNews@45c8e616] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publish -->
+      </class> <!-- Pear.news.PublishNews -->
+      <class name="Pear.news.PubClick">
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.news.PubClick@5e025e70]" name="Click" duration-ms="0" started-at="2017-12-13T09:48:33Z" depends-on-methods="Pear.news.PubClick.Login" finished-at="2017-12-13T09:48:33Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PubClick.Click()[pri:0, instance:Pear.news.PubClick@5e025e70] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PubClick.Click()[pri:0, instance:Pear.news.PubClick@5e025e70] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.news.PubClick@5e025e70]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.news.PubClick@5e025e70]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.news.PubClick@5e025e70]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Pear.news.PubClick -->
+    </test> <!-- news -->
+    <test name="market" duration-ms="14568" started-at="2017-12-13T01:48:33Z" finished-at="2017-12-13T01:48:47Z">
+      <class name="Pear.market.PictureStateChange">
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.market.PictureStateChange@6bdf28bb]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="change()[pri:0, instance:Pear.market.PictureStateChange@6bdf28bb]" name="change" duration-ms="0" started-at="2017-12-13T09:48:47Z" depends-on-methods="Pear.market.PictureStateChange.Login" finished-at="2017-12-13T09:48:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PictureStateChange.change()[pri:0, instance:Pear.market.PictureStateChange@6bdf28bb] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PictureStateChange.change()[pri:0, instance:Pear.market.PictureStateChange@6bdf28bb] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.market.PictureStateChange@6bdf28bb]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.market.PictureStateChange@6bdf28bb]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.market.PictureStateChange -->
+      <class name="Pear.market.AddPicture">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.market.AddPicture@d041cf]" name="doBeforeMethod" is-config="true" duration-ms="8524" started-at="2017-12-13T09:48:33Z" finished-at="2017-12-13T09:48:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Pear.market.AddPicture@d041cf]" name="Login" duration-ms="5706" started-at="2017-12-13T09:48:41Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="add(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.market.AddPicture@d041cf]" name="add" duration-ms="34" started-at="2017-12-13T09:48:47Z" data-provider="s4" depends-on-methods="Pear.market.AddPicture.Login" finished-at="2017-12-13T09:48:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[禅道2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.zentao.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E:\\xueli-2017-jyn\\tuanzi.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="add(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.market.AddPicture@d041cf]" name="add" duration-ms="19" started-at="2017-12-13T09:48:47Z" data-provider="s4" depends-on-methods="Pear.market.AddPicture.Login" finished-at="2017-12-13T09:48:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bugfree3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.bugfree.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E:\\xueli-2017-jyn\\cat.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="add(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.market.AddPicture@d041cf]" name="add" duration-ms="15" started-at="2017-12-13T09:48:47Z" data-provider="s4" depends-on-methods="Pear.market.AddPicture.Login" finished-at="2017-12-13T09:48:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redmine4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.redmine.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E:\\xueli-2017-jyn\\tuanzi.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="FAIL" signature="doAfterMethod()[pri:0, instance:Pear.market.AddPicture@d041cf]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.oG9r9JprRFXK, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=3996, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 22787831-d0ec-4ed1-9172-94a5bb3e0131]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.oG9r9JprRFXK, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=3996, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: 22787831-d0ec-4ed1-9172-94a5bb3e0131
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:482)
+	at com.webtest.core.BaseTest.doAfterMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.market.AddPicture -->
+      <class name="Pear.market.ShopTipsClick">
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.market.ShopTipsClick@6b71769e]" name="Click" duration-ms="0" started-at="2017-12-13T09:48:47Z" depends-on-methods="Pear.market.ShopTipsClick.Login" finished-at="2017-12-13T09:48:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ShopTipsClick.Click()[pri:0, instance:Pear.market.ShopTipsClick@6b71769e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ShopTipsClick.Click()[pri:0, instance:Pear.market.ShopTipsClick@6b71769e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.market.ShopTipsClick@6b71769e]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.market.ShopTipsClick@6b71769e]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.market.ShopTipsClick@6b71769e]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+      </class> <!-- Pear.market.ShopTipsClick -->
+      <class name="Pear.market.ShopTipsSearch">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.market.ShopTipsSearch@2752f6e2]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.market.ShopTipsSearch@2752f6e2]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.market.ShopTipsSearch@2752f6e2]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="search()[pri:0, instance:Pear.market.ShopTipsSearch@2752f6e2]" name="search" duration-ms="0" started-at="2017-12-13T09:48:47Z" depends-on-methods="Pear.market.ShopTipsSearch.Login" finished-at="2017-12-13T09:48:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ShopTipsSearch.search()[pri:0, instance:Pear.market.ShopTipsSearch@2752f6e2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ShopTipsSearch.search()[pri:0, instance:Pear.market.ShopTipsSearch@2752f6e2] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+      </class> <!-- Pear.market.ShopTipsSearch -->
+      <class name="Pear.market.PictureListClick">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.market.PictureListClick@129a8472]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.market.PictureListClick@129a8472]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.market.PictureListClick@129a8472]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.market.PictureListClick@129a8472]" name="Click" duration-ms="0" started-at="2017-12-13T09:48:47Z" depends-on-methods="Pear.market.PictureListClick.Login" finished-at="2017-12-13T09:48:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PictureListClick.Click()[pri:0, instance:Pear.market.PictureListClick@129a8472] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PictureListClick.Click()[pri:0, instance:Pear.market.PictureListClick@129a8472] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+      </class> <!-- Pear.market.PictureListClick -->
+      <class name="Pear.market.PictureRemove">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.market.PictureRemove@2f7c7260]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.market.PictureRemove@2f7c7260]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="remove()[pri:0, instance:Pear.market.PictureRemove@2f7c7260]" name="remove" duration-ms="0" started-at="2017-12-13T09:48:47Z" depends-on-methods="Pear.market.PictureRemove.Login" finished-at="2017-12-13T09:48:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PictureRemove.remove()[pri:0, instance:Pear.market.PictureRemove@2f7c7260] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PictureRemove.remove()[pri:0, instance:Pear.market.PictureRemove@2f7c7260] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.market.PictureRemove@2f7c7260]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.market.PictureRemove -->
+      <class name="Pear.market.StoreClick">
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.market.StoreClick@e580929]" name="Click" duration-ms="0" started-at="2017-12-13T09:48:47Z" depends-on-methods="Pear.market.StoreClick.Login" finished-at="2017-12-13T09:48:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method StoreClick.Click()[pri:0, instance:Pear.market.StoreClick@e580929] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method StoreClick.Click()[pri:0, instance:Pear.market.StoreClick@e580929] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.market.StoreClick@e580929]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.market.StoreClick@e580929]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.market.StoreClick@e580929]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.market.StoreClick -->
+      <class name="Pear.market.PictureListSearch">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.market.PictureListSearch@1b0375b3]" name="Login" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.market.PictureListSearch@1b0375b3]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="search()[pri:0, instance:Pear.market.PictureListSearch@1b0375b3]" name="search" duration-ms="0" started-at="2017-12-13T09:48:47Z" depends-on-methods="Pear.market.PictureListSearch.Login" finished-at="2017-12-13T09:48:47Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method PictureListSearch.search()[pri:0, instance:Pear.market.PictureListSearch@1b0375b3] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method PictureListSearch.search()[pri:0, instance:Pear.market.PictureListSearch@1b0375b3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.market.PictureListSearch@1b0375b3]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.market.PictureListSearch -->
+    </test> <!-- market -->
+    <test name="link" duration-ms="15614" started-at="2017-12-13T01:48:47Z" finished-at="2017-12-13T01:49:03Z">
+      <class name="Pear.link.ChangeLinkAppear">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.link.ChangeLinkAppear@880ec60]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.link.ChangeLinkAppear@880ec60]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="change()[pri:0, instance:Pear.link.ChangeLinkAppear@880ec60]" name="change" duration-ms="0" started-at="2017-12-13T09:49:03Z" depends-on-methods="Pear.link.ChangeLinkAppear.Login" finished-at="2017-12-13T09:49:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ChangeLinkAppear.change()[pri:0, instance:Pear.link.ChangeLinkAppear@880ec60] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ChangeLinkAppear.change()[pri:0, instance:Pear.link.ChangeLinkAppear@880ec60] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.link.ChangeLinkAppear@880ec60]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.link.ChangeLinkAppear -->
+      <class name="Pear.link.LinkListSearch">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.link.LinkListSearch@36d64342]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.link.LinkListSearch@36d64342]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="Search()[pri:0, instance:Pear.link.LinkListSearch@36d64342]" name="Search" duration-ms="0" started-at="2017-12-13T09:49:03Z" depends-on-methods="Pear.link.LinkListSearch.Login" finished-at="2017-12-13T09:49:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LinkListSearch.Search()[pri:0, instance:Pear.link.LinkListSearch@36d64342] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LinkListSearch.Search()[pri:0, instance:Pear.link.LinkListSearch@36d64342] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.link.LinkListSearch@36d64342]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+      </class> <!-- Pear.link.LinkListSearch -->
+      <class name="Pear.link.AddLinkSearch">
+        <test-method status="SKIP" signature="Search()[pri:0, instance:Pear.link.AddLinkSearch@7a79be86]" name="Search" duration-ms="0" started-at="2017-12-13T09:49:03Z" depends-on-methods="Pear.link.AddLinkSearch.Login" finished-at="2017-12-13T09:49:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AddLinkSearch.Search()[pri:0, instance:Pear.link.AddLinkSearch@7a79be86] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AddLinkSearch.Search()[pri:0, instance:Pear.link.AddLinkSearch@7a79be86] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.link.AddLinkSearch@7a79be86]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.link.AddLinkSearch@7a79be86]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.link.AddLinkSearch@7a79be86]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Pear.link.AddLinkSearch -->
+      <class name="Pear.link.LinkListClick">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.link.LinkListClick@7f63425a]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.link.LinkListClick@7f63425a]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.link.LinkListClick@7f63425a]" name="Click" duration-ms="0" started-at="2017-12-13T09:49:03Z" depends-on-methods="Pear.link.LinkListClick.Login" finished-at="2017-12-13T09:49:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LinkListClick.Click()[pri:0, instance:Pear.link.LinkListClick@7f63425a] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LinkListClick.Click()[pri:0, instance:Pear.link.LinkListClick@7f63425a] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.link.LinkListClick@7f63425a]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+      </class> <!-- Pear.link.LinkListClick -->
+      <class name="Pear.link.ChangeClickNew">
+        <test-method status="SKIP" signature="change()[pri:0, instance:Pear.link.ChangeClickNew@34ce8af7]" name="change" duration-ms="0" started-at="2017-12-13T09:49:03Z" depends-on-methods="Pear.link.ChangeClickNew.Login" finished-at="2017-12-13T09:49:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ChangeClickNew.change()[pri:0, instance:Pear.link.ChangeClickNew@34ce8af7] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ChangeClickNew.change()[pri:0, instance:Pear.link.ChangeClickNew@34ce8af7] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.link.ChangeClickNew@34ce8af7]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.link.ChangeClickNew@34ce8af7]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.link.ChangeClickNew@34ce8af7]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Pear.link.ChangeClickNew -->
+      <class name="Pear.link.LinkClick">
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.link.LinkClick@3f3afe78]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.link.LinkClick@3f3afe78]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.link.LinkClick@3f3afe78]" name="Click" duration-ms="0" started-at="2017-12-13T09:49:03Z" depends-on-methods="Pear.link.LinkClick.Login" finished-at="2017-12-13T09:49:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LinkClick.Click()[pri:0, instance:Pear.link.LinkClick@3f3afe78] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LinkClick.Click()[pri:0, instance:Pear.link.LinkClick@3f3afe78] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.link.LinkClick@3f3afe78]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.link.LinkClick -->
+      <class name="Pear.link.RemoveLink">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.link.RemoveLink@39ba5a14]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="remove()[pri:0, instance:Pear.link.RemoveLink@39ba5a14]" name="remove" duration-ms="0" started-at="2017-12-13T09:49:03Z" depends-on-methods="Pear.link.RemoveLink.Login" finished-at="2017-12-13T09:49:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method RemoveLink.remove()[pri:0, instance:Pear.link.RemoveLink@39ba5a14] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method RemoveLink.remove()[pri:0, instance:Pear.link.RemoveLink@39ba5a14] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.link.RemoveLink@39ba5a14]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.link.RemoveLink@39ba5a14]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.link.RemoveLink -->
+      <class name="Pear.link.ChangeLinkAbandon">
+        <test-method status="SKIP" signature="change()[pri:0, instance:Pear.link.ChangeLinkAbandon@b684286]" name="change" duration-ms="0" started-at="2017-12-13T09:49:03Z" depends-on-methods="Pear.link.ChangeLinkAbandon.Login" finished-at="2017-12-13T09:49:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ChangeLinkAbandon.change()[pri:0, instance:Pear.link.ChangeLinkAbandon@b684286] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ChangeLinkAbandon.change()[pri:0, instance:Pear.link.ChangeLinkAbandon@b684286] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.link.ChangeLinkAbandon@b684286]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.link.ChangeLinkAbandon@b684286]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.link.ChangeLinkAbandon@b684286]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.link.ChangeLinkAbandon -->
+      <class name="Pear.link.AddLink">
+        <test-method status="PASS" signature="doBeforeMethod()[pri:0, instance:Pear.link.AddLink@1e643faf]" name="doBeforeMethod" is-config="true" duration-ms="8296" started-at="2017-12-13T09:48:47Z" finished-at="2017-12-13T09:48:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Pear.link.AddLink@1e643faf]" name="Login" duration-ms="5785" started-at="2017-12-13T09:48:56Z" finished-at="2017-12-13T09:49:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="add(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.link.AddLink@1e643faf]" name="add" duration-ms="31" started-at="2017-12-13T09:49:01Z" data-provider="s4" depends-on-methods="Pear.link.AddLink.Login" finished-at="2017-12-13T09:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[禅道2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.zentao.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E:\\xueli-2017-jyn\\tuanzi.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="add(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.link.AddLink@1e643faf]" name="add" duration-ms="31" started-at="2017-12-13T09:49:02Z" data-provider="s4" depends-on-methods="Pear.link.AddLink.Login" finished-at="2017-12-13T09:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bugfree3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.bugfree.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E:\\xueli-2017-jyn\\cat.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="PASS" signature="add(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Pear.link.AddLink@1e643faf]" name="add" duration-ms="38" started-at="2017-12-13T09:49:02Z" data-provider="s4" depends-on-methods="Pear.link.AddLink.Login" finished-at="2017-12-13T09:49:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redmine4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[www.redmine.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E:\\xueli-2017-jyn\\tuanzi.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+        <test-method status="FAIL" signature="doAfterMethod()[pri:0, instance:Pear.link.AddLink@1e643faf]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:02Z" finished-at="2017-12-13T09:49:02Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.P2tnGoWwT7fe, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=21836, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e6043f4a-aade-44c8-a15c-4d37f688eb71]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.P2tnGoWwT7fe, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=21836, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e6043f4a-aade-44c8-a15c-4d37f688eb71
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:482)
+	at com.webtest.core.BaseTest.doAfterMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.link.AddLink -->
+      <class name="Pear.link.AddLinkListClick">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.link.AddLinkListClick@6e8dacdf]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.link.AddLinkListClick@6e8dacdf]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.link.AddLinkListClick@6e8dacdf]" name="Click" duration-ms="0" started-at="2017-12-13T09:49:03Z" depends-on-methods="Pear.link.AddLinkListClick.Login" finished-at="2017-12-13T09:49:03Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AddLinkListClick.Click()[pri:0, instance:Pear.link.AddLinkListClick@6e8dacdf] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AddLinkListClick.Click()[pri:0, instance:Pear.link.AddLinkListClick@6e8dacdf] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.link.AddLinkListClick@6e8dacdf]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- Pear.link.AddLinkListClick -->
+    </test> <!-- link -->
+    <test name="authority" duration-ms="11339" started-at="2017-12-13T01:49:03Z" finished-at="2017-12-13T01:49:14Z">
+      <class name="Pear.authority.AuthorityClick">
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.authority.AuthorityClick@2acf57e3]" name="Click" duration-ms="0" started-at="2017-12-13T09:49:14Z" depends-on-methods="Pear.authority.AuthorityClick.Login" finished-at="2017-12-13T09:49:14Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AuthorityClick.Click()[pri:0, instance:Pear.authority.AuthorityClick@2acf57e3] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AuthorityClick.Click()[pri:0, instance:Pear.authority.AuthorityClick@2acf57e3] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.authority.AuthorityClick@2acf57e3]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.authority.AuthorityClick@2acf57e3]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.authority.AuthorityClick@2acf57e3]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+      </class> <!-- Pear.authority.AuthorityClick -->
+      <class name="Pear.authority.AddAuthorityClick">
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.authority.AddAuthorityClick@2812cbfa]" name="Click" duration-ms="0" started-at="2017-12-13T09:49:14Z" depends-on-methods="Pear.authority.AddAuthorityClick.Login" finished-at="2017-12-13T09:49:14Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AddAuthorityClick.Click()[pri:0, instance:Pear.authority.AddAuthorityClick@2812cbfa] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AddAuthorityClick.Click()[pri:0, instance:Pear.authority.AddAuthorityClick@2812cbfa] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.authority.AddAuthorityClick@2812cbfa]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.authority.AddAuthorityClick@2812cbfa]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.authority.AddAuthorityClick@2812cbfa]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+      </class> <!-- Pear.authority.AddAuthorityClick -->
+      <class name="Pear.authority.DetailsClick">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.authority.DetailsClick@96532d6]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.authority.DetailsClick@96532d6]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.authority.DetailsClick@96532d6]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.authority.DetailsClick@96532d6]" name="Click" duration-ms="0" started-at="2017-12-13T09:49:14Z" depends-on-methods="Pear.authority.DetailsClick.Login" finished-at="2017-12-13T09:49:14Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DetailsClick.Click()[pri:0, instance:Pear.authority.DetailsClick@96532d6] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DetailsClick.Click()[pri:0, instance:Pear.authority.DetailsClick@96532d6] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+      </class> <!-- Pear.authority.DetailsClick -->
+      <class name="Pear.authority.ViewAuthorityClick">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.authority.ViewAuthorityClick@4411d970]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.authority.ViewAuthorityClick@4411d970]" name="Click" duration-ms="0" started-at="2017-12-13T09:49:14Z" depends-on-methods="Pear.authority.ViewAuthorityClick.Login" finished-at="2017-12-13T09:49:14Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ViewAuthorityClick.Click()[pri:0, instance:Pear.authority.ViewAuthorityClick@4411d970] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ViewAuthorityClick.Click()[pri:0, instance:Pear.authority.ViewAuthorityClick@4411d970] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.authority.ViewAuthorityClick@4411d970]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.authority.ViewAuthorityClick@4411d970]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+      </class> <!-- Pear.authority.ViewAuthorityClick -->
+      <class name="Pear.authority.RemoveMember">
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.authority.RemoveMember@3796751b]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.authority.RemoveMember@3796751b]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="remove()[pri:0, instance:Pear.authority.RemoveMember@3796751b]" name="remove" duration-ms="0" started-at="2017-12-13T09:49:14Z" depends-on-methods="Pear.authority.RemoveMember.Login" finished-at="2017-12-13T09:49:14Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method RemoveMember.remove()[pri:0, instance:Pear.authority.RemoveMember@3796751b] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method RemoveMember.remove()[pri:0, instance:Pear.authority.RemoveMember@3796751b] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.authority.RemoveMember@3796751b]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+      </class> <!-- Pear.authority.RemoveMember -->
+      <class name="Pear.authority.AuthorityListClick">
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.authority.AuthorityListClick@506e6d5e]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.authority.AuthorityListClick@506e6d5e]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="Click()[pri:0, instance:Pear.authority.AuthorityListClick@506e6d5e]" name="Click" duration-ms="0" started-at="2017-12-13T09:49:14Z" depends-on-methods="Pear.authority.AuthorityListClick.Login" finished-at="2017-12-13T09:49:14Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AuthorityListClick.Click()[pri:0, instance:Pear.authority.AuthorityListClick@506e6d5e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AuthorityListClick.Click()[pri:0, instance:Pear.authority.AuthorityListClick@506e6d5e] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Click -->
+        <test-method status="SKIP" signature="doBeforeMethod()[pri:0, instance:Pear.authority.AuthorityListClick@506e6d5e]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+      </class> <!-- Pear.authority.AuthorityListClick -->
+      <class name="Pear.authority.AddAuthority">
+        <test-method status="FAIL" signature="doBeforeMethod()[pri:0, instance:Pear.authority.AddAuthority@17f6480]" name="doBeforeMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:03Z" finished-at="2017-12-13T09:49:03Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Process unexpectedly closed with status: 0
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffe06442774 - BaseThreadInitThunk]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Process unexpectedly closed with status: 0
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T16:15:40.131Z'
+System info: host: 'AMANDA', ip: '192.168.107.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: stack backtrace:
+   0:           0x4821c4 - <no info>
+   1:           0x482933 - <no info>
+   2:           0x445159 - <no info>
+   3:           0x44c838 - <no info>
+   4:           0x43026a - <no info>
+   5:           0x40ba4e - <no info>
+   6:           0x4119b9 - <no info>
+   7:           0x6d2c89 - <no info>
+   8:           0x426006 - <no info>
+   9:           0x6cd490 - <no info>
+  10:     0x7ffe06442774 - BaseThreadInitThunk
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$24(ProtocolHandshake.java:359)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:362)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:136)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:217)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:140)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:120)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at com.webtest.core.BaseTest.newWebDriver(Unknown Source)
+	at com.webtest.core.BaseTest.doBeforeMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBeforeMethod -->
+        <test-method status="SKIP" signature="doAfterMethod()[pri:0, instance:Pear.authority.AddAuthority@17f6480]" name="doAfterMethod" is-config="true" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfterMethod -->
+        <test-method status="SKIP" signature="Login()[pri:0, instance:Pear.authority.AddAuthority@17f6480]" name="Login" duration-ms="0" started-at="2017-12-13T09:49:14Z" finished-at="2017-12-13T09:49:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="SKIP" signature="add(java.lang.String)[pri:0, instance:Pear.authority.AddAuthority@17f6480]" name="add" duration-ms="0" started-at="2017-12-13T09:49:14Z" data-provider="s5" depends-on-methods="Pear.authority.AddAuthority.Login" finished-at="2017-12-13T09:49:14Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method AddAuthority.add(java.lang.String)[pri:0, instance:Pear.authority.AddAuthority@17f6480] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method AddAuthority.add(java.lang.String)[pri:0, instance:Pear.authority.AddAuthority@17f6480] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add -->
+      </class> <!-- Pear.authority.AddAuthority -->
+    </test> <!-- authority -->
+  </suite> <!-- Suite1 -->
 </testng-results>

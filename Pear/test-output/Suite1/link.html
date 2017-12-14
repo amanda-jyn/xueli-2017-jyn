@@ -55,11 +55,19 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>link</h2><table border='1' align="center">
 <tr>
+<<<<<<< HEAD
 <td>Tests passed/Failed/Skipped:</td><td>22/0/0</td>
 </tr><tr>
 <td>Started on:</td><td>Thu Dec 14 15:16:44 CST 2017</td>
 </tr>
 <tr><td>Total time:</td><td>359 seconds (359056 ms)</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>4/0/18</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Dec 13 09:48:47 CST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15614 ms)</td>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +75,177 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<<<<<<< HEAD
+=======
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pear.link.AddLink.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.link.AddLink</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;AMANDA&apos;, ip: &apos;192.168.107.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.P2tnGoWwT7fe, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=21836, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e6043f4a-aade-44c8-a15c-4d37f688eb71
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:482)
+	at com.webtest.core.BaseTest.doAfterMethod(Unknown Source)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace40191541", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace40191541'><pre>org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T16:15:40.131Z&apos;
+System info: host: &apos;AMANDA&apos;, ip: &apos;192.168.107.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\75910\AppData\Local\Temp\rust_mozprofile.P2tnGoWwT7fe, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=XP, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=true, browserVersion=55.0, platformVersion=10.0, moz:processID=21836, browserName=firefox, javascriptEnabled=true, platformName=XP}]
+Session ID: e6043f4a-aade-44c8-a15c-4d37f688eb71
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:643)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:482)
+	at com.webtest.core.BaseTest.doAfterMethod(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:220)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>Pear.link.AddLink@1e643faf</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pear.link.AddLinkListClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.link.AddLinkListClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.AddLinkListClick@6e8dacdf</td></tr>
+<tr>
+<td title='Pear.link.AddLinkSearch.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.link.AddLinkSearch</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.AddLinkSearch@7a79be86</td></tr>
+<tr>
+<td title='Pear.link.ChangeClickNew.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.link.ChangeClickNew</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.ChangeClickNew@34ce8af7</td></tr>
+<tr>
+<td title='Pear.link.ChangeLinkAbandon.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.link.ChangeLinkAbandon</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.ChangeLinkAbandon@b684286</td></tr>
+<tr>
+<td title='Pear.link.ChangeLinkAppear.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.link.ChangeLinkAppear</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.ChangeLinkAppear@880ec60</td></tr>
+<tr>
+<td title='Pear.link.LinkClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.link.LinkClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.LinkClick@3f3afe78</td></tr>
+<tr>
+<td title='Pear.link.LinkListClick.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.link.LinkListClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.LinkListClick@7f63425a</td></tr>
+<tr>
+<td title='Pear.link.LinkListSearch.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.link.LinkListSearch</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.LinkListSearch@36d64342</td></tr>
+<tr>
+<td title='Pear.link.RemoveLink.doBeforeMethod()'><b>doBeforeMethod</b><br>Test class: Pear.link.RemoveLink</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.RemoveLink@39ba5a14</td></tr>
+<tr>
+<td title='Pear.link.AddLinkListClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.link.AddLinkListClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.AddLinkListClick@6e8dacdf</td></tr>
+<tr>
+<td title='Pear.link.AddLinkSearch.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.link.AddLinkSearch</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.AddLinkSearch@7a79be86</td></tr>
+<tr>
+<td title='Pear.link.ChangeClickNew.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.link.ChangeClickNew</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.ChangeClickNew@34ce8af7</td></tr>
+<tr>
+<td title='Pear.link.ChangeLinkAbandon.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.link.ChangeLinkAbandon</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.ChangeLinkAbandon@b684286</td></tr>
+<tr>
+<td title='Pear.link.ChangeLinkAppear.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.link.ChangeLinkAppear</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.ChangeLinkAppear@880ec60</td></tr>
+<tr>
+<td title='Pear.link.LinkClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.link.LinkClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.LinkClick@3f3afe78</td></tr>
+<tr>
+<td title='Pear.link.LinkListClick.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.link.LinkListClick</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.LinkListClick@7f63425a</td></tr>
+<tr>
+<td title='Pear.link.LinkListSearch.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.link.LinkListSearch</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.LinkListSearch@36d64342</td></tr>
+<tr>
+<td title='Pear.link.RemoveLink.doAfterMethod()'><b>doAfterMethod</b><br>Test class: Pear.link.RemoveLink</td>
+<td></td>
+<td>0</td>
+<td>Pear.link.RemoveLink@39ba5a14</td></tr>
+</table><p>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,68 +254,201 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Pear.link.AddLinkListClick.Click()'><b>Click</b><br>Test class: Pear.link.AddLinkListClick</td>
-<td></td>
-<td>7</td>
-<td>Pear.link.AddLinkListClick@6e8dacdf</td></tr>
-<tr>
-<td title='Pear.link.LinkClick.Click()'><b>Click</b><br>Test class: Pear.link.LinkClick</td>
-<td></td>
-<td>3</td>
-<td>Pear.link.LinkClick@3f3afe78</td></tr>
-<tr>
-<td title='Pear.link.LinkListClick.Click()'><b>Click</b><br>Test class: Pear.link.LinkListClick</td>
-<td></td>
-<td>6</td>
-<td>Pear.link.LinkListClick@7f63425a</td></tr>
-<tr>
 <td title='Pear.link.AddLink.Login()'><b>Login</b><br>Test class: Pear.link.AddLink</td>
 <td></td>
+<<<<<<< HEAD
+<td>7</td>
+<td>Pear.link.AddLinkListClick@6e8dacdf</td></tr>
+=======
+<td>5</td>
+<td>Pear.link.AddLink@1e643faf</td></tr>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
+<tr>
+<td title='Pear.link.AddLink.add()'><b>add</b><br>Test class: Pear.link.AddLink<br>Parameters: לרµְ2, www.zentao.com, E:\\xueli-2017-jyn\\tuanzi.jpg</td>
+<td></td>
+<<<<<<< HEAD
+<td>3</td>
+<td>Pear.link.LinkClick@3f3afe78</td></tr>
+=======
+<td>0</td>
+<td>Pear.link.AddLink@1e643faf</td></tr>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
+<tr>
+<td title='Pear.link.AddLink.add()'><b>add</b><br>Test class: Pear.link.AddLink<br>Parameters: bugfree3, www.bugfree.com, E:\\xueli-2017-jyn\\cat.png</td>
+<td></td>
+<<<<<<< HEAD
+<td>6</td>
+<td>Pear.link.LinkListClick@7f63425a</td></tr>
+=======
+<td>0</td>
+<td>Pear.link.AddLink@1e643faf</td></tr>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
+<tr>
+<td title='Pear.link.AddLink.add()'><b>add</b><br>Test class: Pear.link.AddLink<br>Parameters: redmine4, www.redmine.com, E:\\xueli-2017-jyn\\tuanzi.jpg</td>
+<td></td>
+<<<<<<< HEAD
 <td>10</td>
 <td>Pear.link.AddLink@1e643faf</td></tr>
 <tr>
 <td title='Pear.link.AddLinkListClick.Login()'><b>Login</b><br>Test class: Pear.link.AddLinkListClick</td>
 <td></td>
 <td>10</td>
+=======
+<td>0</td>
+<td>Pear.link.AddLink@1e643faf</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Pear.link.AddLinkListClick.Click()'><b>Click</b><br>Test class: Pear.link.AddLinkListClick</td>
+<td><div><pre>java.lang.Throwable: Method AddLinkListClick.Click()[pri:0, instance:Pear.link.AddLinkListClick@6e8dacdf] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1033917063", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1033917063'><pre>java.lang.Throwable: Method AddLinkListClick.Click()[pri:0, instance:Pear.link.AddLinkListClick@6e8dacdf] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.link.LinkClick.Click()'><b>Click</b><br>Test class: Pear.link.LinkClick</td>
+<td><div><pre>java.lang.Throwable: Method LinkClick.Click()[pri:0, instance:Pear.link.LinkClick@3f3afe78] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1176932104", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1176932104'><pre>java.lang.Throwable: Method LinkClick.Click()[pri:0, instance:Pear.link.LinkClick@3f3afe78] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.link.LinkListClick.Click()'><b>Click</b><br>Test class: Pear.link.LinkListClick</td>
+<td><div><pre>java.lang.Throwable: Method LinkListClick.Click()[pri:0, instance:Pear.link.LinkListClick@7f63425a] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1648232591", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1648232591'><pre>java.lang.Throwable: Method LinkListClick.Click()[pri:0, instance:Pear.link.LinkListClick@7f63425a] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.link.AddLinkListClick.Login()'><b>Login</b><br>Test class: Pear.link.AddLinkListClick</td>
+<td></td>
+<td>0</td>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 <td>Pear.link.AddLinkListClick@6e8dacdf</td></tr>
 <tr>
 <td title='Pear.link.AddLinkSearch.Login()'><b>Login</b><br>Test class: Pear.link.AddLinkSearch</td>
 <td></td>
+<<<<<<< HEAD
 <td>11</td>
+=======
+<td>0</td>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 <td>Pear.link.AddLinkSearch@7a79be86</td></tr>
 <tr>
 <td title='Pear.link.ChangeClickNew.Login()'><b>Login</b><br>Test class: Pear.link.ChangeClickNew</td>
 <td></td>
+<<<<<<< HEAD
 <td>10</td>
+=======
+<td>0</td>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 <td>Pear.link.ChangeClickNew@34ce8af7</td></tr>
 <tr>
 <td title='Pear.link.ChangeLinkAbandon.Login()'><b>Login</b><br>Test class: Pear.link.ChangeLinkAbandon</td>
 <td></td>
+<<<<<<< HEAD
 <td>10</td>
+=======
+<td>0</td>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 <td>Pear.link.ChangeLinkAbandon@b684286</td></tr>
 <tr>
 <td title='Pear.link.ChangeLinkAppear.Login()'><b>Login</b><br>Test class: Pear.link.ChangeLinkAppear</td>
 <td></td>
+<<<<<<< HEAD
 <td>10</td>
+=======
+<td>0</td>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 <td>Pear.link.ChangeLinkAppear@880ec60</td></tr>
 <tr>
 <td title='Pear.link.LinkClick.Login()'><b>Login</b><br>Test class: Pear.link.LinkClick</td>
 <td></td>
+<<<<<<< HEAD
 <td>9</td>
+=======
+<td>0</td>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 <td>Pear.link.LinkClick@3f3afe78</td></tr>
 <tr>
 <td title='Pear.link.LinkListClick.Login()'><b>Login</b><br>Test class: Pear.link.LinkListClick</td>
 <td></td>
+<<<<<<< HEAD
 <td>10</td>
+=======
+<td>0</td>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 <td>Pear.link.LinkListClick@7f63425a</td></tr>
 <tr>
 <td title='Pear.link.LinkListSearch.Login()'><b>Login</b><br>Test class: Pear.link.LinkListSearch</td>
 <td></td>
+<<<<<<< HEAD
 <td>10</td>
+=======
+<td>0</td>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 <td>Pear.link.LinkListSearch@36d64342</td></tr>
 <tr>
 <td title='Pear.link.RemoveLink.Login()'><b>Login</b><br>Test class: Pear.link.RemoveLink</td>
 <td></td>
+<<<<<<< HEAD
 <td>10</td>
 <td>Pear.link.RemoveLink@39ba5a14</td></tr>
 <tr>
@@ -184,6 +496,154 @@ function toggleAllBoxes() {
 <td></td>
 <td>10</td>
 <td>Pear.link.RemoveLink@39ba5a14</td></tr>
+=======
+<td>0</td>
+<td>Pear.link.RemoveLink@39ba5a14</td></tr>
+<tr>
+<td title='Pear.link.AddLinkSearch.Search()'><b>Search</b><br>Test class: Pear.link.AddLinkSearch</td>
+<td><div><pre>java.lang.Throwable: Method AddLinkSearch.Search()[pri:0, instance:Pear.link.AddLinkSearch@7a79be86] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1232373427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1232373427'><pre>java.lang.Throwable: Method AddLinkSearch.Search()[pri:0, instance:Pear.link.AddLinkSearch@7a79be86] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.link.LinkListSearch.Search()'><b>Search</b><br>Test class: Pear.link.LinkListSearch</td>
+<td><div><pre>java.lang.Throwable: Method LinkListSearch.Search()[pri:0, instance:Pear.link.LinkListSearch@36d64342] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1635378213", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1635378213'><pre>java.lang.Throwable: Method LinkListSearch.Search()[pri:0, instance:Pear.link.LinkListSearch@36d64342] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.link.ChangeClickNew.change()'><b>change</b><br>Test class: Pear.link.ChangeClickNew</td>
+<td><div><pre>java.lang.Throwable: Method ChangeClickNew.change()[pri:0, instance:Pear.link.ChangeClickNew@34ce8af7] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1231006815", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1231006815'><pre>java.lang.Throwable: Method ChangeClickNew.change()[pri:0, instance:Pear.link.ChangeClickNew@34ce8af7] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.link.ChangeLinkAbandon.change()'><b>change</b><br>Test class: Pear.link.ChangeLinkAbandon</td>
+<td><div><pre>java.lang.Throwable: Method ChangeLinkAbandon.change()[pri:0, instance:Pear.link.ChangeLinkAbandon@b684286] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace840083671", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace840083671'><pre>java.lang.Throwable: Method ChangeLinkAbandon.change()[pri:0, instance:Pear.link.ChangeLinkAbandon@b684286] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.link.ChangeLinkAppear.change()'><b>change</b><br>Test class: Pear.link.ChangeLinkAppear</td>
+<td><div><pre>java.lang.Throwable: Method ChangeLinkAppear.change()[pri:0, instance:Pear.link.ChangeLinkAppear@880ec60] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace154988899", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace154988899'><pre>java.lang.Throwable: Method ChangeLinkAppear.change()[pri:0, instance:Pear.link.ChangeLinkAppear@880ec60] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='Pear.link.RemoveLink.remove()'><b>remove</b><br>Test class: Pear.link.RemoveLink</td>
+<td><div><pre>java.lang.Throwable: Method RemoveLink.remove()[pri:0, instance:Pear.link.RemoveLink@39ba5a14] depends on not successfully finished methods
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1877062907", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1877062907'><pre>java.lang.Throwable: Method RemoveLink.remove()[pri:0, instance:Pear.link.RemoveLink@39ba5a14] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1033)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.TestNG.privateMain(TestNG.java:1355)
+	at org.testng.TestNG.main(TestNG.java:1324)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+>>>>>>> 03952219d547f52fdbc9fdd81a8778b603bcda1b
 </table><p>
 </body>
 </html>
